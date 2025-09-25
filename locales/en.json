@@ -1,0 +1,10 @@
+{
+  "main_menu": {
+
+  "title_label": "Task Scheduler",
+  "btn_addPlan": "Add task",
+  "btn_settings": "Settings",
+  "btn_calendar": "Calendar"
+}
+}
+

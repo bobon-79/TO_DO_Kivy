@@ -1,0 +1,47 @@
+#:kivy 2.3.1
+
+<MainMenu>:
+    name: "menu"
+    orientation: "vertical"
+    spacing: 20
+    padding: 20
+
+    BoxLayout:
+        orientation: "horizontal"
+        spacing: "3dp"
+        canvas.before:
+            Color:
+                rgba: root.color
+            Rectangle:
+                pos: self.pos
+                size: self.size
+        Image:
+            source: root.icon
+            size_hint_x: .2
+        Label:
+            id: title_label
+            text: root.text_label
+            size_hint_x: .8
+            font_size: "23sp"
+            font_name: "assets/Wremena-Regular.ttf"
+            color: .1, .1, .1, 1
+
+    Button:
+        id: btn_listPlan
+        text: "📋 Список задач"
+        on_release: app.root.current = "tasks"
+    Button:
+        id: btn_addPlan
+        text: "➕ Добавить задачу"
+        on_release: app.root.current = "add"
+    Button:
+        text: "📅 Календарь"
+    Button:
+        id: btn_settings
+        text: "⚙️ Настройки"
+        on_release: app.root.current = "settings"
+    Label:
+        id: version_label
+        text: "v0.1 (demo)"
+        font_size: "12sp"
+        height: self.texture_size[1] + 10

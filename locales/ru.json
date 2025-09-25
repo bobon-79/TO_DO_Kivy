@@ -1,0 +1,8 @@
+{
+  "main_menu": {
+  "title_label": "Планировщик задач",
+  "btn_addPlan": "Добавить задачу",
+  "btn_settings": "Настройки",
+  "btn_calendar": "Календарь"
+}
+}

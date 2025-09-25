@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+logs/**
+!logs/.gitkeep
+*.log
+
+# Data files
+data/*.db
+data/*.json
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# Mobile build (Buildozer / Android)
+.buildozer/
+*.apk
+*.aab
+
+# OS junk
+.DS_Store
+Thumbs.db
+/my.kv
+/Test.py

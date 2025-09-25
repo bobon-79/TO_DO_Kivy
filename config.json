@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "TO_DO_Kivy",
+    "language": "ru",
+    "theme": "light",
+    "version": "1.0.0"
+  },
+  "window": {
+    "startup_mode": "maximize",
+    "custom_size": [
+      1280,
+      800
+    ],
+    "dpi_aware_windows": true
+  },
+  "data": {
+    "backend": "sqlite",
+    "db_path": "data/tasks.db",
+    "json_path": "data/tasks.json"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log",
+    "console": true
+  },
+  "i18n": {
+    "default": "ru",
+    "supported": [
+      "ru",
+      "en"
+    ]
+  },
+  "ui": {
+    "date_format": "YYYY-MM-DD",
+    "first_weekday": "monday",
+    "animations": true,
+    "transition": "slide"
+  }
+}
