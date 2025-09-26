@@ -1,0 +1,27 @@
+#:kivy 2.3.1
+#:import dp kivy.metrics.dp
+<TitleLabel@BoxLayout>:
+    text: ""
+    img: ""
+    color: ()
+    orientation: "horizontal"
+    spacing: dp(1)
+    canvas.before:
+        Color:
+            rgba:  root.color
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    Label:
+        id: ""
+        font_name: "assets/Fonts/materialdesignicons-webfont.ttf"
+        size_hint_x: .1
+        text: root.img
+        color: .5, 1, 1, 1
+    Label:
+        id: ""
+        text: root.text
+        size_hint_x: .8
+        font_name: "assets/Fonts/Wremena-Regular.ttf"
+        font_size: sp(24)
+        color:  .5, 1, 1, 1

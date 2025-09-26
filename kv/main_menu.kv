@@ -1,31 +1,16 @@
 #:kivy 2.3.1
-
+#:include kv/Components/label.kv
 <MainMenu>:
     name: "menu"
     orientation: "vertical"
     spacing: 20
     padding: 20
 
-    BoxLayout:
-        orientation: "horizontal"
-        spacing: "3dp"
-        canvas.before:
-            Color:
-                rgba: root.color
-            Rectangle:
-                pos: self.pos
-                size: self.size
-        Image:
-            source: root.icon
-            size_hint_x: .2
-        Label:
-            id: title_label
-            text: root.text_label
-            size_hint_x: .8
-            font_size: "23sp"
-            font_name: "assets/Wremena-Regular.ttf"
-            color: .1, .1, .1, 1
-
+    TitleLabel:
+        color: 0, 0, 0, 0.8
+        id: card_label
+        text: root.text_label
+        img: root.img
     Button:
         id: btn_listPlan
         text: "📋 Список задач"
