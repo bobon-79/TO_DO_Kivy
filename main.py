@@ -8,14 +8,15 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.app import App
 from kivy.core.window import Window
 
-from utils import config
+from utils import *
 from screens import *
 
 
 class TO_DOApp(App, BoxLayout):
     # list_screens: list = [MainMenu()]
-    UI = StringProperty(str(config.BASE_DIR / "assets/fonts/materialdesignicons-webfont.ttf"))
-    MDI = StringProperty(str(config.BASE_DIR / "assets/fonts/Wremena-Regular.ttf"))
+    loder_json = BaseJSONLoader("config")
+    UI = StringProperty(str(loder_json.BASE_DIR / "assets/fonts/NotoSans-Regular.ttf"))
+    MDI = StringProperty(str(loder_json.BASE_DIR / "assets/fonts/materialdesignicons-webfont.ttf"))
 
     def on_start(self):
         if sys.platform.startswith("win"):
@@ -28,3 +29,4 @@ class TO_DOApp(App, BoxLayout):
 
 if __name__ == '__main__':
     TO_DOApp().run()
+
