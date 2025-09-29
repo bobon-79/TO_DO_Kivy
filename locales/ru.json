@@ -1,5 +1,7 @@
 {
   "app": {
+    "black": "#000000",
+    "blue": "#316AE1"
   },
   "main_menu": {
     "img": "U000F00BD",

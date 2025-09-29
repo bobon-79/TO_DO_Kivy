@@ -2,15 +2,19 @@
 #:include kv/Components/label.kv
 <MainMenu>:
     name: "menu"
+    id: main_menu
     orientation: "vertical"
     spacing: 20
-    padding: 20
+    padding: 10
 
     TitleLabel:
-        color: 0, 0, 0, 0.8
+        color:  "#316AE1"
         id: card_label
         text: root.text_label
         img: root.img
+        ui: app.UI
+        mdi: app.MDI
+
     Button:
         id: btn_listPlan
         text: "📋 Список задач"
@@ -29,4 +33,5 @@
         id: version_label
         text: "v0.1 (demo)"
         font_size: "12sp"
+        color:  "#FFFFFF"
         height: self.texture_size[1] + 10

@@ -1,27 +1,30 @@
 #:kivy 2.3.1
 #:import dp kivy.metrics.dp
+#:import get_color_from_hex kivy.utils.get_color_from_hex
 <TitleLabel@BoxLayout>:
     text: ""
     img: ""
-    color: ()
+    color: ""
+    ui: ""
+    mdi: ""
     orientation: "horizontal"
     spacing: dp(1)
     canvas.before:
         Color:
-            rgba:  root.color
+            rgba:  get_color_from_hex(root.color)
         Rectangle:
-            pos: self.pos
-            size: self.size
+            pos: self.pos[0] - dp(10), self.pos[1]
+            size: self.size[0] + dp(20), self.size[1]
     Label:
-        id: ""
-        font_name: "assets/Fonts/materialdesignicons-webfont.ttf"
+        id: "www"
+        font_name: root.ui
         size_hint_x: .1
         text: root.img
-        color: .5, 1, 1, 1
+        color: 1, 1, 1, 1
     Label:
         id: ""
         text: root.text
-        size_hint_x: .8
-        font_name: "assets/Fonts/Wremena-Regular.ttf"
+        size_hint_x: .9
+        font_name: root.mdi
         font_size: sp(24)
-        color:  .5, 1, 1, 1
+        color:  1, 1, 1, 1
