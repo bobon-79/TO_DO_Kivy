@@ -22,5 +22,5 @@ class MainMenu(BoxLayout, Screen):
 
         :param base_widget:
         """
-
-        Clock.schedule_once(lambda dt: print(self.ids.card_label.text))
+        pass
+        #✔Clock.schedule_once(lambda dt: print(self.ids.card_label.text))

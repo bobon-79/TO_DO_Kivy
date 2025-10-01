@@ -1,7 +1,7 @@
 {
   "UI": {
-    "regular": "NotoSans-Regular.ttf",
-    "bold": "NotoSans-Bold.ttf",
+    "regular": "assets/fonts/NotoSans-Regular.ttf",
+    "bold": "assets/fonts/NotoSans-Bold.ttf",
     "sizes": {
       "body": "16sp",
       "subtitle": "18sp",
@@ -9,17 +9,10 @@
       "caption": "12sp"
     }
   },
-  "Serif": {
-    "regular": "NotoSerif-Regular.ttf",
-    "sizes": {
-      "title": "22sp",
-      "body": "16sp"
-    }
-  },
   "Emoji": {
-    "regular": "NotoEmoji-Regular.ttf"
+    "regular": "assets/fonts/NotoEmoji-Regular.ttf"
   },
   "MDI": {
-    "regular": "materialdesignicons-webfont.ttf"
+    "regular": "assets/fonts/materialdesignicons-webfont.ttf"
   }
 }

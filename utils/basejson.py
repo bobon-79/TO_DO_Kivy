@@ -38,7 +38,3 @@ class BaseJSONLoader:
         return d
 
 
-if __name__ == "__main__":
-    loader = BaseJSONLoader()
-    loader.load_json()
-    print(loader.get_param("app", "version"))
