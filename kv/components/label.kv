@@ -2,31 +2,24 @@
 #:import dp kivy.metrics.dp
 #:import get_color_from_hex kivy.utils.get_color_from_hex
 <TitleLabel@BoxLayout>:
-    text: ""
-    img: ""
+    text: str()
+    img: str()
     color: ""
-    ui: ""
-    mdi: ""
+
     orientation: "horizontal"
     spacing: dp(1)
     canvas.before:
         Color:
             rgba:  get_color_from_hex(root.color)
-        Rectangle:
-            pos: self.pos[0] - dp(10), self.pos[1]
-            size: self.size[0] + dp(20), self.size[1]
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [25,]
     Label:
-        id: "www"
-        font_name: "Emoji"
+        font_name: "MDI"
         size_hint_x: .1
-        text: "😎"
-        font_size: sp(24)
-        canvas.before:
-            Color:
-                rgba:  1,.6,.58, 1
-            Ellipse:
-                pos: self.pos
-                size: dp(10), dp(10)
+        text:  root.img
+        font_size: app.title_size
 
 
     Label:
@@ -35,5 +28,5 @@
         size_hint_x: .9
         font_name:  "UI"
         bold: True
-        font_size: sp(24)
+        font_size: app.caption_size
         color:  1, 1, 1, 1

@@ -2,7 +2,6 @@
 The module fonts.
 """
 from kivy.core.text import LabelBase
-
 from utils.basejson import BaseJSONLoader
 
 

@@ -15,12 +15,11 @@ class MainMenu(BoxLayout, Screen):
     """
     text_label = StringProperty(i18n.get_param("main_menu", "title_label"))
     blue = StringProperty(i18n.get_param("app", "blue"))
-    img = chr(int(i18n.get_param("main_menu", "img")[1:], 16))
+    img = StringProperty(image.get_param("MD","bookOpenVariant"))
 
     def on_kv_post(self, base_widget):
         """
 
         :param base_widget:
         """
-        pass
-        #✔Clock.schedule_once(lambda dt: print(self.ids.card_label.text))
+        #Clock.schedule_once(lambda dt: print(image.get_param("MD","bookOpen")))
