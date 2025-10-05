@@ -13,7 +13,6 @@ from screens import *
 
 
 class TO_DOApp(App, BoxLayout):
-    # list_screens: list = [MainMenu()]
     font_size = DictProperty(font.get_sizes_font())
 
     def on_start(self):
