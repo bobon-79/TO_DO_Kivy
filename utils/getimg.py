@@ -20,7 +20,7 @@ class Image(BaseJSONLoader):
         :param default:
         :return:
         """
-        return chr(int(super().get_param(*keys)[1:],16))
+        return chr(int(super().get_param(*keys)[1:], 16))
 
 
 image = Image()
