@@ -38,3 +38,4 @@ dist/
 Thumbs.db
 /my.kv
 /Test.py
+/help/kivy_properties.md

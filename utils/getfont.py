@@ -25,5 +25,12 @@ class Font(BaseJSONLoader):
             name="Emoji",
             fn_regular=self.get_param("Emoji", "regular"))
 
+    def get_sizes_font(self):
+        """
+        Method to get the sizes of the font.
+        {body, title, subtitle, caption}.
+        """
+        sizes = self.get_param("UI", "sizes")
+        return {k: size for k, size in sizes.items()}
 
 font = Font()
