@@ -8,7 +8,6 @@
     padding: 3
 
     TitleLabel:
-        color:  "#316AE1"
         id: card_label
         text: root.text_label
         img: root.img
@@ -16,7 +15,7 @@
     Button:
         id: btn_listPlan
         text: "📋 Список задач"
-        on_release: app.root.current = "tasks"
+        on_release: root.change_lang()
     Button:
         id: btn_addPlan
         text: "➕ Добавить задачу"

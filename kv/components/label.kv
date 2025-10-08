@@ -4,22 +4,29 @@
 <TitleLabel@BoxLayout>:
     text: str()
     img: str()
-    color: ""
 
     orientation: "horizontal"
     spacing: dp(1)
     canvas.before:
         Color:
-            rgba:  get_color_from_hex(root.color)
+            rgba: app.colors["primary"]
         RoundedRectangle:
             pos: self.pos
             size: self.size
             radius: [25,]
     Label:
         font_name: "MDI"
+        padding: dp(10), 0, 0, 0
+        color: app.colors["on_primary"]
         size_hint_x: .1
         text:  root.img
-        font_size: app.font_size["title"]
+        font_size: app.font_sizes["title"]
+        canvas.before:
+            Color:
+                rgba: app.colors["primary_dark"]
+            Ellipse:
+                pos: self.center_x - dp(15), self.center_y - dp(22)
+                size: 
 
 
     Label:
@@ -28,5 +35,5 @@
         size_hint_x: .9
         font_name:  "UI"
         bold: True
-        font_size: app.font_size["title"]
-        color:  1, 1, 1, 1
+        font_size: app.font_sizes["title"]
+        color: app.colors["on_primary"]

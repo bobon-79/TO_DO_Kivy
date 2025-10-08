@@ -1,0 +1,24 @@
+{
+  "light": {
+    "primary": "#2196F3",
+    "primary_dark": "#1976D2",
+    "accent": "#FF4081",
+    "background": "#FAFAFA",
+    "surface": "#FFFFFF",
+    "error": "#F44336",
+    "on_primary": "#FFFFFF",
+    "on_background": "#212121",
+    "on_surface": "#000000"
+  },
+  "dark": {
+    "primary": "#90CAF9",
+    "primary_dark": "#2196F3",
+    "accent": "#FF80AB",
+    "background": "#121212",
+    "surface": "#1E1E1E",
+    "error": "#CF6679",
+    "on_primary": "#000000",
+    "on_background": "#FFFFFF",
+    "on_surface": "#E0E0E0"
+  }
+}

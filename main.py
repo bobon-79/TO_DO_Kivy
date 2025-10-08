@@ -13,12 +13,13 @@ from screens import *
 
 
 class TO_DOApp(App, BoxLayout):
-    font_size = DictProperty(font.get_sizes_font())
+    font_sizes = DictProperty(font.get_sizes_font())
+    colors = DictProperty(color.get_color())
 
     def on_start(self):
         if sys.platform.startswith("win"):
             Window.size = (324, 720)  # ширина, высота
-            Window.clearcolor = 1, 1, 1, 1
+            Window.clearcolor = self.colors["background"]  # цвет фона
 
     def build(self):
         pass

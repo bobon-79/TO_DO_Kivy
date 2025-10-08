@@ -16,7 +16,7 @@ class Image(BaseJSONLoader):
     def get_param(self, *keys, default=None):
         """
         Get text from JSON and convert to Unicode symbol.
-        :param keys: ключи для получения значения из JSON
+        :param keys: ключи для получения значения из JSON.
         :param default:
         :return:
         """
