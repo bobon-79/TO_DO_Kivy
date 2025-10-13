@@ -7,10 +7,12 @@ from .basejson import BaseJSONLoader
 from .getfont import font
 from .getimg import image
 from .getcolor import color
+from .basemixin import BaseMixin
 
 __all__ = ["config",
            "i18n",
            "BaseJSONLoader",
            "font",
            "image",
-           "color"]
+           "color",
+           "BaseMixin"]

@@ -1,39 +1,51 @@
 #:kivy 2.3.1
 #:import dp kivy.metrics.dp
-#:import get_color_from_hex kivy.utils.get_color_from_hex
-<TitleLabel@BoxLayout>:
-    text: str()
-    img: str()
+#:import Clock kivy.clock.Clock
+#:import Metrics kivy.metrics.Metrics
+<LabelTitle@BaseMixin+Label>:
+    k_round: min(self.width, self.height) - 1.1 * self.font_size
 
-    orientation: "horizontal"
-    spacing: dp(1)
+<Title@FloatLayout>:
+    text: ""
+    img: ""
     canvas.before:
         Color:
             rgba: app.colors["primary"]
         RoundedRectangle:
             pos: self.pos
             size: self.size
-            radius: [25,]
-    Label:
+            radius: [dp(25)]
+
+    # Иконка
+    LabelTitle:
         font_name: "MDI"
-        padding: dp(10), 0, 0, 0
         color: app.colors["on_primary"]
-        size_hint_x: .1
-        text:  root.img
-        font_size: app.font_sizes["title"]
+        size_hint: None, None
+        size: root.width * 0.2, root.height
+        text: root.img
+        font_size:sp(self.adaptive_font("title", root.width))
+        pos_hint: {"center_y": .5, "center_x": .1}
+        halign: "center"
+        valign: "center"
+
         canvas.before:
             Color:
                 rgba: app.colors["primary_dark"]
             Ellipse:
-                pos: self.center_x - dp(15), self.center_y - dp(22)
-                size: 
+                size: (self.k_round, self.k_round)
+                pos: (self.center_x - self.k_round / 2, self.center_y - self.k_round / 2)
 
-
-    Label:
-        id: ""
+    # Текст
+    LabelTitle:
         text: root.text
-        size_hint_x: .9
-        font_name:  "UI"
+        text_size: self.width, None
+        font_name: "UI"
         bold: True
-        font_size: app.font_sizes["title"]
+        size_hint: None, None
+        width: root.width * 0.8
+        font_size:sp(self.adaptive_font("title", root.width))
         color: app.colors["on_primary"]
+        halign: "center"
+        valign: "middle"
+        pos_hint: {"center_y": .5, "center_x": .6}
+

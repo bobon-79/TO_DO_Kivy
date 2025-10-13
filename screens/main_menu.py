@@ -1,9 +1,10 @@
 """
 The main menu screen of the project
 """
-from kivy.clock import Clock
+
 from kivy.properties import StringProperty
 from kivy.uix.boxlayout import BoxLayout
+
 from kivy.uix.screenmanager import Screen
 
 from utils import *
@@ -26,10 +27,3 @@ class MainMenu(BoxLayout, Screen):
                    value=lang)
         i18n.switch(lang)
         self.text_label = i18n.get_param("main_menu", "title_label")
-
-    def on_kv_post(self, base_widget):
-        """
-
-        :param base_widget:
-        """
-        # Clock.schedule_once(lambda dt: print(image.get_param("MD","bookOpen")))

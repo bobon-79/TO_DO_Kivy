@@ -28,6 +28,8 @@ class BaseJSONLoader:
     def get_param(self, *keys, default=None):
         """
         Get parameter from JSON data.
+            :param keys:  keys to get parameter.
+            :param default: Default value if parameter not found.
         """
         d = self.data
         for key in keys:
