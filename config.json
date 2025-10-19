@@ -1,9 +1,10 @@
 {
   "app": {
     "name": "TO_DO_Kivy",
-    "language": "ru",
+    "language": "en",
     "theme": "light",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "mode": "debug"
   },
   "window": {
     "startup_mode": "maximize",
@@ -17,11 +18,6 @@
     "backend": "sqlite",
     "db_path": "data/tasks.db",
     "json_path": "data/tasks.json"
-  },
-  "logging": {
-    "level": "INFO",
-    "file": "logs/app.log",
-    "console": true
   },
   "i18n": {
     "default": "ru",

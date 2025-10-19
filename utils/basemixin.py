@@ -1,8 +1,7 @@
 """Module for font size adaptation."""
 
-
 from kivy.clock import Clock
-from utils import font
+from utils.getfont import font
 
 
 class BaseMixin:
@@ -28,7 +27,8 @@ class BaseMixin:
         :param width: Screen width.
         :param min_sp: Minimal font size.
         :param max_sp: Maximal font size.
-        :return: float font size.
+        :return: Float font size.
+
         Example: Can be used in kv file as:
         font_size: app.adaptive_font(<size_key>, <root.width>)
         """
@@ -39,6 +39,4 @@ class BaseMixin:
             base_width = width
         base = float(self.font_sizes[size_key])
         scale = width / base_width
-        print(max(min_sp, min(max_sp, base * scale)))
         return max(min_sp, min(max_sp, base * scale))
-

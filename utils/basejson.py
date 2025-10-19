@@ -25,7 +25,7 @@ class BaseJSONLoader:
         with open(self.config_path, encoding="utf-8") as f:
             self.data = json.load(f)
 
-    def get_param(self, *keys, default=None):
+    def get_param(self, *keys, default={}):
         """
         Get parameter from JSON data.
             :param keys:  keys to get parameter.

@@ -1,0 +1,31 @@
+2025-10-19 15:15:12,837 | INFO | __init__.py:51 | MY  GL: Backend used <glew>
+2025-10-19 15:15:12,838 | INFO | __init__.py:55 | MY  GL: OpenGL version <b'4.4.0 - Build 20.19.15.4364'>
+2025-10-19 15:15:12,838 | INFO | __init__.py:56 | MY  GL: OpenGL vendor <b'Intel'>
+2025-10-19 15:15:12,838 | INFO | __init__.py:57 | MY  GL: OpenGL renderer <b'Intel(R) HD Graphics 530'>
+2025-10-19 15:15:12,838 | INFO | __init__.py:61 | MY  GL: OpenGL parsed version: 4, 4
+2025-10-19 15:15:12,839 | INFO | __init__.py:81 | MY  GL: Shading version <b'4.40 - Build 20.19.15.4364'>
+2025-10-19 15:15:12,839 | INFO | __init__.py:83 | MY  GL: Texture max size <16384>
+2025-10-19 15:15:12,839 | INFO | __init__.py:85 | MY  GL: Texture max units <32>
+2025-10-19 15:15:12,860 | INFO | window_sdl2.py:369 | MY  Window: auto add sdl2 input provider
+2025-10-19 15:15:12,863 | INFO | __init__.py:2308 | MY  Window: virtual keyboard not allowed, single mode, not docked
+2025-10-19 15:15:12,888 | INFO | main.py:25 | MY  App started
+2025-10-19 15:15:12,888 | INFO | base.py:520 | MY  Base: Start application main loop
+2025-10-19 15:15:12,893 | INFO | __init__.py:851 | MY  GL: NPOT texture support is available
+2025-10-19 15:15:15,915 | INFO | base.py:616 | MY  Base: Leaving application in progress...
+2025-10-19 15:27:53,075 | INFO | __init__.py:67 | MY  Window: Provider: sdl2
+2025-10-19 15:27:53,294 | INFO | __init__.py:45 | MY  GL: Using the "OpenGL" graphics system
+2025-10-19 15:27:53,295 | INFO | __init__.py:45 | MY  GL: GLEW initialization succeeded
+2025-10-19 15:27:53,295 | INFO | __init__.py:51 | MY  GL: Backend used <glew>
+2025-10-19 15:27:53,295 | INFO | __init__.py:55 | MY  GL: OpenGL version <b'4.4.0 - Build 20.19.15.4364'>
+2025-10-19 15:27:53,295 | INFO | __init__.py:56 | MY  GL: OpenGL vendor <b'Intel'>
+2025-10-19 15:27:53,295 | INFO | __init__.py:57 | MY  GL: OpenGL renderer <b'Intel(R) HD Graphics 530'>
+2025-10-19 15:27:53,295 | INFO | __init__.py:61 | MY  GL: OpenGL parsed version: 4, 4
+2025-10-19 15:27:53,295 | INFO | __init__.py:81 | MY  GL: Shading version <b'4.40 - Build 20.19.15.4364'>
+2025-10-19 15:27:53,296 | INFO | __init__.py:83 | MY  GL: Texture max size <16384>
+2025-10-19 15:27:53,296 | INFO | __init__.py:85 | MY  GL: Texture max units <32>
+2025-10-19 15:27:53,319 | INFO | window_sdl2.py:369 | MY  Window: auto add sdl2 input provider
+2025-10-19 15:27:53,321 | INFO | __init__.py:2308 | MY  Window: virtual keyboard not allowed, single mode, not docked
+2025-10-19 15:27:53,344 | INFO | main.py:25 | MY  App started
+2025-10-19 15:27:53,345 | INFO | base.py:520 | MY  Base: Start application main loop
+2025-10-19 15:27:53,349 | INFO | __init__.py:851 | MY  GL: NPOT texture support is available
+2025-10-19 15:27:55,903 | INFO | base.py:616 | MY  Base: Leaving application in progress...

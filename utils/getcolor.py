@@ -1,5 +1,5 @@
 """
-
+Module to get color from a JSON file.
 """
 from kivy.utils import get_color_from_hex
 

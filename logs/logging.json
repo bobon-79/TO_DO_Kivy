@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "readable": {
+      "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | MY  %(message)s"
+    }
+  },
+  "handlers": {
+    "console": {
+      "class": "logging.StreamHandler",
+      "level": "DEBUG",
+      "formatter": "readable",
+      "stream": "ext://sys.stdout"
+    },
+      "file_prod": {
+    "class": "logging.handlers.RotatingFileHandler",
+    "level": "INFO",
+    "formatter": "readable",
+    "filename": "D:/Python/TO_DO_Kivy/logs/app.log",
+    "maxBytes": 2097152,
+    "backupCount": 3,
+    "encoding": "utf-8",
+    "mode": "a",
+    "delay": true
+  }
+  },
+  "loggers": {
+    "kivy": {
+      "level": "INFO",
+      "handlers": ["file_prod"],
+      "propagate": false
+    },
+    "app": {
+      "level": "DEBUG",
+      "handlers": ["console", "file_prod"],
+      "propagate": false
+    }
+  },
+  "root": {
+    "level": "WARNING",
+    "handlers": ["console"]
+  }
+}

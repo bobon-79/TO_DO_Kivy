@@ -8,11 +8,15 @@ from .getfont import font
 from .getimg import image
 from .getcolor import color
 from .basemixin import BaseMixin
+from .config_logger import log
 
-__all__ = ["config",
-           "i18n",
-           "BaseJSONLoader",
-           "font",
-           "image",
-           "color",
-           "BaseMixin"]
+__all__ = [
+    "config",
+    "i18n",
+    "BaseJSONLoader",
+    "font",
+    "image",
+    "color",
+    "BaseMixin",
+    "log"
+]

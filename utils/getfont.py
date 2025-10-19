@@ -29,6 +29,8 @@ class Font(BaseJSONLoader):
         """
         Method to get the sizes of the font.
         {body, title, subtitle, caption}.
+        return: dict a size of font.
+
         """
         sizes = self.get_param("UI", "sizes")
         return {k: size for k, size in sizes.items()}
