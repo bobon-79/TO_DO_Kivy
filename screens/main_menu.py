@@ -2,28 +2,36 @@
 The main menu screen of the project
 """
 
-from kivy.properties import StringProperty
+from kivy.app import App
+from kivy.properties import StringProperty, ObjectProperty
 from kivy.uix.boxlayout import BoxLayout
-
 from kivy.uix.screenmanager import Screen
-
-from utils import *
 
 
 class MainMenu(BoxLayout, Screen):
     """
      Class for the main menu screen of the project
     """
-    text_label = StringProperty(i18n.get_param("main_menu", "title_label"))
-    blue = StringProperty(i18n.get_param("app", "blue"))
-    img = StringProperty(image.get_param("MD", "bookOpenVariant"))
+    app = App.get_running_app()
+    splash = app.root.get_screen("splash")
+    text_label = StringProperty(splash.i18n.get_param("main_menu", "title_label"))
+    img = StringProperty(splash.img.get_param("MD", "bookOpenVariant"))
+    name = StringProperty("main")
+    config = ObjectProperty(app.config)
+    log = ObjectProperty(app.log)
+
+    def on_enter(self, *args):
+        """
+        Initializes the screen
+        """
+        self.log.info("Init MainMenu")
 
     def change_lang(self):
         """
         Changes the language of the app
         """
-        lang = "ru" if config.get_param("app", "language") == "en" else "en"
-        config.set("app", "language",
-                   value=lang)
-        i18n.switch(lang)
-        self.text_label = i18n.get_param("main_menu", "title_label")
+        lang = "ru" if self.config.get_param("app", "language") == "en" else "en"
+        self.config.set("app", "language",
+                        value=lang)
+        self.splash.i18n.switch(lang)
+        self.text_label = self.splash.i18n.get_param("main_menu", "title_label")

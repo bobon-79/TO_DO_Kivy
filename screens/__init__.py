@@ -1,6 +1,6 @@
 """
 The screens module in an application.
 """
-from .main_menu import MainMenu
+from .splash import SplashScreen
 
-__all__ = ["MainMenu"]
+__all__ = ["SplashScreen"]

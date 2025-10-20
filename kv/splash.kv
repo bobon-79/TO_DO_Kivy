@@ -1,0 +1,34 @@
+# to_do.kv — простой интерфейс Splash + Main
+<SplashScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        padding: dp(24)
+        spacing: dp(16)
+        Widget:
+            size_hint_y: None
+            height: root.height * 0.4
+        Label:
+            text: "TO_DO Kivy"
+            font_size: "22sp"
+            size_hint_y: None
+            color: 0,0,0,1
+            height: self.texture_size[1]
+        ProgressBar:
+            max: 100
+            value: root.progress
+            size_hint_y: None
+            height: dp(6)
+        Label:
+            text: root.status
+            font_size: "14sp"
+            color: 0,0,0,1
+            size_hint_y: None
+            height: self.texture_size[1]
+        Widget:  # заполнитель
+        Label:
+            text: "загрузка…"
+            color: 0,0,0,1
+            font_size: "12sp"
+            opacity: .6
+
+

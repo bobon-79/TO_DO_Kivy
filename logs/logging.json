@@ -3,7 +3,7 @@
   "disable_existing_loggers": false,
   "formatters": {
     "readable": {
-      "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | MY  %(message)s"
+      "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | [TO_DO]  %(message)s"
     }
   },
   "handlers": {
@@ -21,7 +21,7 @@
     "maxBytes": 2097152,
     "backupCount": 3,
     "encoding": "utf-8",
-    "mode": "a",
+    "mode": "debug",
     "delay": true
   }
   },

@@ -1,12 +1,12 @@
 """Module for font size adaptation."""
-
+from kivy.app import App
 from kivy.clock import Clock
-from utils.getfont import font
 
 
 class BaseMixin:
     """A class to change font size responsively depending on the screen."""
-    font_sizes = font.get_sizes_font()
+
+    font_sizes: dict = {}
 
     def on_kv_post(self, base_widget)-> None:
         """
@@ -32,6 +32,7 @@ class BaseMixin:
         Example: Can be used in kv file as:
         font_size: app.adaptive_font(<size_key>, <root.width>)
         """
+        self.font_sizes = App.get_running_app().font_sizes
         base_width = 0
         if hasattr(self, '_base_width'):
             base_width = self._base_width
