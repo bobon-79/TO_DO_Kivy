@@ -1,17 +1,13 @@
 """
 Internationalization and localization support.
 """
-from kivy.app import App
-from kivy.properties import ObjectProperty
+from utils import app
 
-from utils.basejson import BaseJSONLoader
-
-
-class I18N(BaseJSONLoader):
+class I18N(app.preload):
     """
     Class for internationalization and localization support.
     """
-    config = App.get_running_app().config
+    config = app.config
     CONFIG_PATH = ""
     if config.get_param("app", "language") == "ru":
         CONFIG_PATH = "locales/ru"
@@ -29,7 +25,7 @@ class I18N(BaseJSONLoader):
         :param lang:
         """
         self.lang = lang
-        self.config_path = BaseJSONLoader.BASE_DIR / f"locales/{lang}.json"
+        self.config_path = app.preload.BASE_DIR / f"locales/{lang}.json"
         self.load_json()
 
 

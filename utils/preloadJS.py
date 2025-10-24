@@ -7,13 +7,13 @@ import os
 from pathlib import Path
 
 
-class BaseJSONLoader:
+class PreloadJs:
     """Base class for JSON loaders and get parameters."""
     BASE_DIR = Path(__file__).resolve().parent.parent
 
     def __init__(self, path: str):
         self.data = {}
-        self.config_path = BaseJSONLoader.BASE_DIR / f"{path}.json"
+        self.config_path = PreloadJs.BASE_DIR / f"{path}.json"
         self.load_json()
 
     def load_json(self):
@@ -29,7 +29,7 @@ class BaseJSONLoader:
         """
         Get parameter from JSON data.
             :param keys:  keys to get parameter.
-            :param default: Default value if parameter not found.
+            :param default:{} Default value if parameter not found.
         """
         d = self.data
         for key in keys:

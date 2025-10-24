@@ -24,7 +24,7 @@ class MainMenu(BoxLayout, Screen):
         """
         Initializes the screen
         """
-        self.log.info("Init MainMenu")
+        self.log.debug("Init MainMenu")
 
     def change_lang(self):
         """

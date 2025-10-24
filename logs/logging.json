@@ -19,7 +19,7 @@
     "formatter": "readable",
     "filename": "D:/Python/TO_DO_Kivy/logs/app.log",
     "maxBytes": 2097152,
-    "backupCount": 3,
+    "backupCount": 2,
     "encoding": "utf-8",
     "mode": "debug",
     "delay": true

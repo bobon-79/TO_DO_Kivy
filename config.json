@@ -1,7 +1,7 @@
 {
   "app": {
     "name": "TO_DO_Kivy",
-    "language": "en",
+    "language": "ru",
     "theme": "light",
     "version": "1.0.0",
     "mode": "debug"

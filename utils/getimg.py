@@ -3,14 +3,14 @@ Module to get image from assets/icons/icons
 """
 from kivy.app import App
 
-from utils.basejson import BaseJSONLoader
+from utils import app
 
 
-class Image(BaseJSONLoader):
+class Image(app.preload):
     """
     Class to get image from assets/icons/icons
     """
-    CONFIG_PATH = BaseJSONLoader.BASE_DIR / "assets/icons/icons"
+    CONFIG_PATH = app.preload.BASE_DIR / "assets/icons/icons"
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
@@ -23,7 +23,7 @@ class Image(BaseJSONLoader):
         :param default:
         :return:
         """
-        self.log = App.get_running_app().root.get_screen("splash").log
+        self.log = app.log
 
         try:
             img = chr(int(super().get_param(*keys)[1:], 16))

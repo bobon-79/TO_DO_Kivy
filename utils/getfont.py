@@ -3,14 +3,14 @@ The module fonts.
 """
 from kivy.app import App
 from kivy.core.text import LabelBase
-from utils.basejson import BaseJSONLoader
+from utils import app
 
 
-class Font(BaseJSONLoader):
+class Font(app.preload):
     """
     The Font class.
     """
-    CONFIG_PATH = BaseJSONLoader.BASE_DIR / "assets/fonts/font"
+    CONFIG_PATH = app.preload.BASE_DIR / "assets/fonts/font"
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
@@ -34,7 +34,7 @@ class Font(BaseJSONLoader):
         return: dict the size of font.
 
         """
-        self.log = App.get_running_app().log
+        self.log = app.log
         try:
             sizes = self.get_param("UI", "sizes")
         except KeyError or ValueError:

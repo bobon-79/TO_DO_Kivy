@@ -1,28 +1,34 @@
-# main.py — Splash → Main, фоновые задачи без блокировки UI
+"""
+The SplashScreen of the project.
+"""
+
 from functools import wraps
+from kivy.logger import Logger
 
 from kivy.app import App
 from kivy.factory import Factory
-from kivy.properties import NumericProperty, StringProperty, BooleanProperty, ObjectProperty
+from kivy.properties import NumericProperty, StringProperty, ObjectProperty
 from kivy.clock import Clock
 from kivy.uix.screenmanager import Screen
-from threading import Thread
+from threading import Thread, Event
 import time
 
+t = 0
 
-def pause(timeout: float =0.8):
+
+def pause(timeout: float = t):
     """
     Stop the function for timeout seconds if it takes less than timeout seconds to run.
     :param timeout: Timeout in seconds.
-    :return:
+    :return: A decorator.
     """
 
     def decorator(func):
         """
-
         :param func:
-        :return:
+        :return: wrapper
         """
+
         @wraps(func)
         def wrapper(*args, **kwargs):
             """
@@ -45,27 +51,28 @@ def pause(timeout: float =0.8):
 class SplashScreen(Screen):
     progress = NumericProperty()  # 0..100
     status = StringProperty('Start...')
-    start_splash = BooleanProperty(False)
     name = StringProperty('splash')
     thread = ObjectProperty()
     t_start = NumericProperty()
+    event = ObjectProperty(Event())
 
     def on_enter(self, *args):
         """
         Method to start the loading of the application.
         :param args:
         """
+        Logger.info("SplashScreen: on enter")
         self.thread = Thread(target=self._load, daemon=True)
         self.thread.start()
-        #self.thread.join()
 
     def _load(self):
         setattr(self, "app", App.get_running_app())
         tasks = [
-            ("Готовим папки…", 1, self._prep_dirs),
-            ("Init logs…", 1, self._init_logs),
-            ("Init config, colors, fonts…", 1, self._load_configs),
-            ("Init assets…", 1, self._warm_assets),
+            ("Init config and preload JSON…", 1, self._load_configs),
+            ("Init logging…", 1, self._init_logs),
+            ("loading fonts", 1, self._load_fonts),
+            ("loading colors", 1, self._load_colors),
+            ("loading i18n…", 1, self._load_i18n),
             ("Loading screens…", 1, self._init_screens),
         ]
         done = 0
@@ -78,45 +85,52 @@ class SplashScreen(Screen):
                 fn()
             except Exception as e:
                 print(e)
-                Clock.schedule_once(lambda *_: setattr(self, 'status', f"Ошибка: "))
+                err = e
+                Clock.schedule_once(lambda *_: setattr(self, 'status', f"Error:{err}\n on init -  self.{fn.__name__} "))
                 return 1
             done += w
             pct = int(done / total * 100)
             Clock.schedule_once(lambda *_: setattr(self, 'progress', pct))
         dt = time.perf_counter() - self.t_start
         Clock.schedule_once(lambda *_: setattr(self, 'status', f"Done in {dt:.2f} c"))
-        self.start_splash = True
-        Clock.schedule_once(lambda *_: self.app.load_screens(self.start_splash), 0.5)
+        Clock.schedule_once(lambda *_: self.app.load_screens(),0.8 )
 
-    @pause(0.2)
-    def _prep_dirs(self):
-        pass
-
-    @pause(0.2)
-    def _init_logs(self):
+    @pause()
+    def _load_configs(self):
+        from utils.preloadJS import PreloadJs
+        self.app.preload = PreloadJs
         from utils.config import config
-        self.app.config = config  # loading config in app
+        self.app.config = config
+
+
+    @pause()
+    def _init_logs(self):
         from utils.config_logger import log
         setattr(self, 'log', log)
-        self.log.info("Init logs — completed")
         self.app.log = log
 
-    @pause(0.2)
-    def _load_configs(self):
+    @pause()
+    def _load_fonts(self):
         from utils.basemixin import BaseMixin
         Factory.register("BaseMixin", cls=BaseMixin)
-        from utils.getcolor import color
-        self.app.colors = color.get_color()  # a loading dict of colors in app
         from utils.getfont import font
-        self.app.font_sizes = font.get_sizes_font()  # loading font sizes in app
-
-
-    @pause(0.2)
-    def _warm_assets(self):
+        self.app.font_sizes = font.get_sizes_font()
         from utils.getimg import image
-        from utils.i18n import i18n
         self.img = image  # loading image
+
+
+    @pause()
+    def _load_colors(self):
+        from utils.getcolor import color
+        self.app.colors = color.get_color()
+
+    @pause()
+    def _load_i18n(self):
+        from utils.i18n import i18n
         self.i18n = i18n  # loading i18n
 
+    @pause()
     def _init_screens(self):
-        time.sleep(0.2)
+        from screens.main_menu import MainMenu
+        menu = MainMenu
+        self.app.menu = menu

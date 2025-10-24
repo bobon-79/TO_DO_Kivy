@@ -3,12 +3,14 @@ File containing the Config class
 
 """
 import json
-from utils.basejson import BaseJSONLoader
+from kivy.app import App
+
+app = App.get_running_app()
 
 
-class Config(BaseJSONLoader):
+class Config(app.preload):
     """Class for loading and accessing application settings."""
-    CONFIG_PATH =  "config"
+    CONFIG_PATH = "config"
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
@@ -30,4 +32,3 @@ class Config(BaseJSONLoader):
 
 
 config = Config()
-

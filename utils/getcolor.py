@@ -1,21 +1,22 @@
 """
 Module to get color from a JSON file.
 """
+from kivy.app import App
 from kivy.utils import get_color_from_hex
-
-from utils.basejson import BaseJSONLoader
-from utils.config import config
+from utils import app
 
 
-class Color(BaseJSONLoader):
+class Color(app.preload):
     """
     Color class to load color from a JSON file.
     """
-    CONFIG_PATH = BaseJSONLoader.BASE_DIR / "assets/color/color"
+
+    CONFIG_PATH = app.preload.BASE_DIR / "assets/color/color"
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
-        self.theme = config.get_param("app", "theme")
+        self.config = app.config
+        self.theme = self.config.get_param("app", "theme")
 
     def get_color(self):
         """
@@ -33,4 +34,3 @@ class Color(BaseJSONLoader):
 
 
 color = Color()
-
