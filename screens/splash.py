@@ -3,6 +3,7 @@ The SplashScreen of the project.
 """
 
 from functools import wraps
+
 from kivy.logger import Logger
 
 from kivy.app import App
@@ -13,7 +14,7 @@ from kivy.uix.screenmanager import Screen
 from threading import Thread, Event
 import time
 
-t = 0
+t = 0.2
 
 
 def pause(timeout: float = t):

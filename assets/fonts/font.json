@@ -2,11 +2,14 @@
   "UI": {
     "regular": "assets/fonts/NotoSans-Regular.ttf",
     "bold": "assets/fonts/NotoSans-Bold.ttf",
+    "italic": "assets/fonts/NotoSans-Italic.ttf",
+    "bolditalic": "assets/fonts/NotoSans-BoldItalic.ttf",
     "sizes": {
-      "body": "16sp",
-      "subtitle": "18sp",
+      "body": "16",
+      "subtitle": "18",
       "title": "22",
-      "caption": "12sp"
+      "caption": "12",
+      "emoji": "38"
     }
   },
   "Emoji": {

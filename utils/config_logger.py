@@ -8,7 +8,7 @@ from typing import Any
 
 from kivy.app import App
 
-from utils.preloadJS import PreloadJs
+from utils import app
 
 
 def setting_logger() -> tuple[Logger, Any]:
@@ -21,9 +21,9 @@ def setting_logger() -> tuple[Logger, Any]:
     log.info(“This is an info message”)
     log.debug(“This is a debug message”)
     """
-    log_path = PreloadJs.BASE_DIR / "logs/logging"
-    file_log = PreloadJs.BASE_DIR / "logs/app.log"
-    bl = PreloadJs(log_path)
+    log_path = app.preload.BASE_DIR / "logs/logging"
+    file_log = app.preload.BASE_DIR / "logs/app.log"
+    bl = app.preload(log_path)
     conf = bl.data
     conf["handlers"]["file_prod"]["filename"] = file_log
     logging.config.dictConfig(conf)

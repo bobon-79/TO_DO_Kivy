@@ -14,8 +14,27 @@ class MainMenu(BoxLayout, Screen):
     """
     app = App.get_running_app()
     splash = app.root.get_screen("splash")
-    text_label = StringProperty(splash.i18n.get_param("main_menu", "title_label"))
-    img = StringProperty(splash.img.get_param("MD", "bookOpenVariant"))
+
+    text_title = StringProperty(splash.i18n.get_param("main_menu", "title_label"))
+    img_title = StringProperty(splash.img.get_param("MD", "bookOpenVariant"))
+
+    text_listPlan = StringProperty(splash.i18n.get_param("main_menu", "btn_listPlan"))
+    img_listPlan = StringProperty(splash.img.get_param("MD", "noteText")
+                                  )
+    text_addPlan = StringProperty(splash.i18n.get_param("main_menu", "btn_addPlan"))
+    img_addPlan = StringProperty(splash.img.get_param("MD", "bookPlus"))
+
+    text_calendar = StringProperty(splash.i18n.get_param("main_menu", "btn_calendar"))
+    img_calendar = StringProperty(splash.img.get_param("MD", "calendar"))
+
+    text_settings = StringProperty(splash.i18n.get_param("main_menu", "btn_settings"))
+    img_settings = StringProperty(splash.img.get_param("MD", "settings"))
+
+    text_exit = StringProperty(splash.i18n.get_param("main_menu", "btn_exit"))
+    img_exit = StringProperty(splash.img.get_param("MD", "exit"))
+
+    text_ver = StringProperty(app.config.get_param("app", "version"))
+
     name = StringProperty("main")
     config = ObjectProperty(app.config)
     log = ObjectProperty(app.log)

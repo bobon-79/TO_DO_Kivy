@@ -18,6 +18,8 @@ class Font(app.preload):
             name="UI",
             fn_regular=self.get_param("UI", "regular"),
             fn_bold=self.get_param("UI", "bold"),
+            fn_italic=self.get_param("UI", "italic"),
+            fn_bolditalic=self.get_param("UI", "bolditalic")
         )  # Register the font with Kivy.
         LabelBase.register(
             name="MDI",

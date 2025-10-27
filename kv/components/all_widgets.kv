@@ -1,0 +1,74 @@
+#:set RADIUS dp(25)
+
+<LabelImg@BaseMixin+Label>:
+    font_name: "MDI"
+    size_hint: 0.2, 1
+    color:  app.colors["on_surface"]
+    pos_hint: {"center_y": .5, "center_x": .1}
+    halign: "center"
+    valign: "center"
+
+
+<LabelTxt@BaseMixin+Label>:
+    font_name: "UI"
+    bold: True
+    size_hint: 0.8, 1
+    color: app.colors["on_surface"]
+    halign: "center"
+    valign: "middle"
+    pos_hint: {"center_y": .5, "center_x": .6}
+
+<Title@FloatLayout>:
+    text: ""
+    img: ""
+
+
+<Background@Widget>:
+    canvas.before:
+        Color:
+            rgba: app.colors["surface"]
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [RADIUS]
+
+
+<Button_1@Button+BaseMixin+FloatLayout>:
+    img: ""
+    font_name: "UI"
+    bold: True
+    italic: True
+    background_normal: ""
+    background_down: ""
+    background_color: 0,0,0,0
+    canvas.before:
+        Color:
+            rgba: 0,0,0, .10 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(6)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: 0,0,0, .06 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(4)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: 0,0,0, .04 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(2)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: app.colors["primary"] if self.state == "normal" else app.colors["primary_dark"]
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [self.height/2]
+        Color:
+            rgba: 1,1,1, .08 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x, self.y + self.height*0.5
+            size: self.width, self.height*0.6
+            radius: [self.height/2]

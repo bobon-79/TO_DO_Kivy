@@ -1,0 +1,47 @@
+#:kivy 2.3.1
+
+
+<MainMenu>:
+    orientation: "vertical"
+    spacing: self.height/15
+    padding: self.width/20
+    Title:
+        id: title
+        text: root.text_title
+        img: root.img_title
+
+    Button_1:
+        font_size:sp(self.adaptive_font("title", root.width))
+        id: listPlan
+        text: root.text_listPlan
+        img: root.img_listPlan
+
+    Button_1:
+        font_size:sp(self.adaptive_font("title", root.width))
+        id: btn_addPlan
+        text: root.text_addPlan
+        img: root.img_addPlan
+    Button_1:
+        font_size:sp(self.adaptive_font("title", root.width))
+        id: btn_calendar
+        text: root.text_calendar
+        img: root.img_calendar
+    Button_1:
+        font_size:sp(self.adaptive_font("title", root.width))
+        id: btn_settings
+        text: root.text_settings
+        img: root.img_settings
+    Button_1:
+        font_size:sp(self.adaptive_font("title", root.width))
+        text: root.text_exit
+        img: root.img_exit
+        id: btn_exit
+        on_release: app.stop()
+
+
+    Label:
+        id: version_label
+        text: root.text_ver
+        font_size: "12sp"
+        color:  app.colors["accent"]
+        height: self.texture_size[1] + 10

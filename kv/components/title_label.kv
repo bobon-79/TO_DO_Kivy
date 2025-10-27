@@ -1,0 +1,19 @@
+#:kivy 2.3.1
+
+#:import dp kivy.metrics.dp
+
+
+<Title>
+
+    Background:
+        pos_hint: {"center_y": .5, "center_x": .5}
+        size_hint: 1.1, 1
+    LabelImg:
+        font_size:sp(self.adaptive_font("emoji", root.width))
+        text: root.img
+
+    LabelTxt:
+        text: root.text
+        text_size: self.size
+        font_size:sp(self.adaptive_font("title", root.width))
+

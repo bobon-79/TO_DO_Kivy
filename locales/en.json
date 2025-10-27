@@ -7,6 +7,7 @@
   "main_menu": {
     "img": "U000F00BD",
     "title_label": "Task Scheduler",
+    "btn_listPlan": "List tasks",
     "btn_addPlan": "Add task",
     "btn_settings": "Settings",
     "btn_calendar": "Calendar"

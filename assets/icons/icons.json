@@ -1,6 +1,11 @@
 {
 "MD" : {
   "bookOpen" : "U000F00BD",
-  "bookOpenVariant" : "U000F14F7"
+  "bookOpenVariant" : "U000F14F7",
+  "noteText": "U000F11D7",
+  "bookPlus": "U000F1696",
+  "calendar": "U000F08A7",
+  "settings": "U000F08BB",
+  "exit": "U000F0206"
 }
 }

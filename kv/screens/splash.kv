@@ -1,8 +1,9 @@
+
 <SplashScreen>:
     BoxLayout:
         orientation: "vertical"
-        padding: dp(24)
-        spacing: dp(16)
+        padding: dp(root.height * 0.1)
+        spacing: dp(root.height * 0.05)
         Widget:
             size_hint_y: None
             height: root.height * 0.4
@@ -23,9 +24,9 @@
             color: 0,0,0,1
             size_hint_y: None
             height: self.texture_size[1]
-        Widget:  # заполнитель
+        Widget:
         Label:
-            text: "загрузка…"
+            text: "Loading…"
             color: 0,0,0,1
             font_size: "12sp"
             opacity: .6
