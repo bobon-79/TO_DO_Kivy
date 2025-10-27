@@ -5,12 +5,12 @@
 
   },
   "main_menu": {
-    "img": "U000F00BD",
-    "title_label": "Task Scheduler",
-    "btn_listPlan": "List tasks",
-    "btn_addPlan": "Add task",
-    "btn_settings": "Settings",
-    "btn_calendar": "Calendar"
+    "title": "Task Scheduler",
+    "listPlan": "List tasks",
+    "addPlan": "Add task",
+    "settings": "Settings",
+    "calendar": "Calendar",
+    "exit": "Exit"
   }
 }
 

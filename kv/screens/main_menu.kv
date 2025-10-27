@@ -15,6 +15,7 @@
         id: listPlan
         text: root.text_listPlan
         img: root.img_listPlan
+        on_release: root.change_lang()
 
     Button_1:
         font_size:sp(self.adaptive_font("title", root.width))
@@ -36,7 +37,7 @@
         text: root.text_exit
         img: root.img_exit
         id: btn_exit
-        on_release: app.stop()
+        on_release: root.confirm_exit()
 
 
     Label:

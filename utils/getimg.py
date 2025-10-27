@@ -27,9 +27,9 @@ class Image(app.preload):
 
         try:
             img = chr(int(super().get_param(*keys)[1:], 16))
-        except (KeyError, ValueError):
+        except (KeyError, ValueError) as e:
             img = default
-            self.log.error(f"Image not found for {keys}")
+            self.log.error(f"Image not found for {keys}, {e}")
 
         return  img
 
