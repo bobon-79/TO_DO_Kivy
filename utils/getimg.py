@@ -1,7 +1,6 @@
 """
 Module to get image from assets/icons/icons
 """
-from kivy.app import App
 
 from utils import app
 

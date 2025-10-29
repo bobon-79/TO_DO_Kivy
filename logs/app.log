@@ -9052,3 +9052,581 @@
 2025-10-27 21:43:20,754 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
 2025-10-27 21:43:21,551 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
 2025-10-27 21:43:34,706 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 19:44:04,469 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 19:44:05,264 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 19:44:16,966 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 19:48:09,457 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 19:48:10,250 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 19:48:31,614 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 19:57:41,272 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 19:57:42,074 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 19:57:53,140 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:05:55,896 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:05:56,689 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:06:00,808 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:06:00,820 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:06:00,830 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:06:00,831 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 78, in _on_confirm_exit
+2025-10-28 20:06:00,832 | WARNING | logger.py:390 | [TO_DO]  stderr:     box.add_widget(Label(text="Выйти из приложения?" if a()
+2025-10-28 20:06:00,833 | WARNING | logger.py:390 | [TO_DO]  stderr:                                                         ~^^
+2025-10-28 20:06:00,833 | WARNING | logger.py:390 | [TO_DO]  stderr: TypeError: MainMenu._on_confirm_exit.<locals>.<lambda>() missing 1 required positional argument: '_'
+2025-10-28 20:07:07,612 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:07:08,408 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:07:22,519 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:08:41,408 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:08:42,202 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:08:50,401 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:14:13,730 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:14:14,523 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:14:18,046 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:14:18,052 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:14:18,055 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:14:18,056 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 78, in _on_confirm_exit
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:     font_name="UI", italic=True, color=self.splash.color.get_color("on_primary")))
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr:                                        ^^^^^^^^^^^^^^^^^
+2025-10-28 20:14:18,057 | WARNING | logger.py:390 | [TO_DO]  stderr: AttributeError: 'SplashScreen' object has no attribute 'color'
+2025-10-28 20:15:55,667 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:15:56,464 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:15:59,495 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:15:59,507 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:15:59,510 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:15:59,511 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:15:59,512 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:15:59,513 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 78, in _on_confirm_exit
+2025-10-28 20:15:59,514 | WARNING | logger.py:390 | [TO_DO]  stderr:     font_name="UI", italic=True, color=self.app.color.get_color("on_primary")))
+2025-10-28 20:15:59,514 | WARNING | logger.py:390 | [TO_DO]  stderr:                                        ^^^^^^^^^^^^^^
+2025-10-28 20:15:59,514 | WARNING | logger.py:390 | [TO_DO]  stderr: AttributeError: 'TO_DOApp' object has no attribute 'color'. Did you mean: 'colors'?
+2025-10-28 20:16:40,875 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:16:41,670 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:16:49,665 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:16:49,676 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:16:49,680 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:16:49,681 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 78, in _on_confirm_exit
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:     font_name="UI", italic=True, color=self.app.color.get_colors("on_primary")))
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr:                                        ^^^^^^^^^^^^^^
+2025-10-28 20:16:49,682 | WARNING | logger.py:390 | [TO_DO]  stderr: AttributeError: 'TO_DOApp' object has no attribute 'color'. Did you mean: 'colors'?
+2025-10-28 20:17:10,893 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:17:11,690 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:17:23,777 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:18:45,548 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:18:46,339 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:18:55,453 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:24:02,495 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:24:03,290 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:24:07,075 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: 
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: The above exception was the direct cause of the following exception:
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: 
+2025-10-28 20:24:07,087 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:24:07,094 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:24:07,094 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:24:07,094 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:24:07,094 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:24:07,095 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:24:07,096 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 83, in _on_confirm_exit
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     popup = Popup(title="Подтверждение",
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:                   title_align="center",
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     ...<2 lines>...
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:                   background_normal="",
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:                   background_color=self.app.colors["primary"])
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\modalview.py", line 195, in __init__
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(ModalView, self).__init__(**kwargs)
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(AnchorLayout, self).__init__(**kwargs)
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(Layout, self).__init__(**kwargs)
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:24:07,097 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+2025-10-28 20:24:07,098 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(Widget, self).__init__(**kwargs)
+2025-10-28 20:24:07,098 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:24:07,098 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+2025-10-28 20:24:07,098 | WARNING | logger.py:390 | [TO_DO]  stderr: TypeError: Properties ['background_normal'] passed to __init__ may not be existing property names. Valid properties are ['_anim_alpha', '_anim_duration', '_container', '_is_open', '_window', 'anchor_x', 'anchor_y', 'attach_to', 'auto_dismiss', 'background', 'background_color', 'border', 'center', 'center_x', 'center_y', 'children', 'cls', 'content', 'disabled', 'height', 'ids', 'motion_filter', 'opacity', 'overlay_color', 'padding', 'parent', 'pos', 'pos_hint', 'right', 'separator_color', 'separator_height', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'title', 'title_align', 'title_color', 'title_font', 'title_size', 'top', 'width', 'x', 'y']
+2025-10-28 20:24:21,790 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:24:22,586 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:24:36,083 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:29:59,716 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:30:00,508 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:30:29,405 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:30:58,475 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:30:59,264 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:31:38,815 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:32:03,438 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:32:04,233 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:32:21,110 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:36:21,396 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 20:36:22,189 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 20:36:36,411 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 20:36:36,416 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr: TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr: 
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr: The above exception was the direct cause of the following exception:
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr: 
+2025-10-28 20:36:36,417 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:36:36,421 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     wid.dispatch('on_touch_up', me)
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_release')
+2025-10-28 20:36:36,422 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\screens\main_menu.kv", line 40, in <module>
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     on_release: root._on_confirm_exit()
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 95, in _on_confirm_exit
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     popup = Popup(title="Подтверждение" if check_lang else "Confirmation",
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:                   title_align="center",
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:     ...<3 lines>...
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:                   modal=True,
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:                   )
+2025-10-28 20:36:36,423 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\modalview.py", line 195, in __init__
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(ModalView, self).__init__(**kwargs)
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\anchorlayout.py", line 68, in __init__
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(AnchorLayout, self).__init__(**kwargs)
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(Layout, self).__init__(**kwargs)
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(Widget, self).__init__(**kwargs)
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+2025-10-28 20:36:36,424 | WARNING | logger.py:390 | [TO_DO]  stderr: TypeError: Properties ['modal'] passed to __init__ may not be existing property names. Valid properties are ['_anim_alpha', '_anim_duration', '_container', '_is_open', '_window', 'anchor_x', 'anchor_y', 'attach_to', 'auto_dismiss', 'background', 'background_color', 'border', 'center', 'center_x', 'center_y', 'children', 'cls', 'content', 'disabled', 'height', 'ids', 'motion_filter', 'opacity', 'overlay_color', 'padding', 'parent', 'pos', 'pos_hint', 'right', 'separator_color', 'separator_height', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'title', 'title_align', 'title_color', 'title_font', 'title_size', 'top', 'width', 'x', 'y']
+2025-10-28 21:12:27,802 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:12:27,825 | INFO | base.py:520 | [TO_DO]  Base: Start application main loop
+2025-10-28 21:12:27,858 | INFO | __init__.py:851 | [TO_DO]  GL: NPOT texture support is available
+2025-10-28 21:12:28,605 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:13:06,465 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:15:03,943 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:15:04,737 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:15:19,423 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:15:46,800 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:15:47,598 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:16:03,492 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:16:59,221 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:17:00,014 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:17:05,910 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:17:19,104 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:17:19,901 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:17:25,692 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:17:47,511 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:17:48,311 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:17:54,274 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:17:54,332 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 21:17:54,333 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-10-28 21:17:54,334 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-10-28 21:17:54,335 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-10-28 21:18:14,963 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:18:15,760 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:18:21,966 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:19:25,979 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:19:26,775 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:19:32,287 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:19:54,127 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:19:54,917 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:19:59,417 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:21:16,364 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:21:17,160 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:21:28,364 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:21:45,312 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:21:46,108 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:21:50,901 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:24:21,178 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:24:21,971 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:24:29,773 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:25:55,604 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:25:56,398 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:26:03,078 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:26:15,685 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:26:16,476 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:26:31,772 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:26:59,543 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:27:00,338 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:27:11,854 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:27:17,969 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:27:18,766 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:27:25,838 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:27:51,565 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:27:52,359 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:28:09,220 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:33:58,868 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:34:12,741 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:48:16,418 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:48:17,212 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:48:36,933 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:49:43,421 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:49:44,215 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:49:59,499 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:54:55,033 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:54:55,829 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:55:19,818 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:56:18,186 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:56:18,981 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:56:28,461 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:56:49,381 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:56:50,177 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:57:09,237 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:57:09,243 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 71, in <module>
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 21:57:09,244 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-10-28 21:57:09,245 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-10-28 21:57:09,246 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-10-28 21:57:24,760 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:57:25,551 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:57:41,297 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:58:15,795 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:58:16,588 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:58:33,757 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:58:49,742 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:58:50,537 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:58:58,910 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:59:18,465 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:59:19,261 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 21:59:36,013 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 21:59:57,284 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 21:59:58,079 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 22:00:08,549 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 22:00:59,631 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 22:01:00,420 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 22:01:09,262 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 22:56:14,625 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 22:56:27,935 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 22:56:33,935 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 22:56:40,348 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 22:56:40,351 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 73, in <module>
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 22:56:40,352 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 22:56:40,353 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-10-28 22:56:40,354 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-10-28 22:58:31,762 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 22:58:32,556 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 22:58:39,438 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 23:14:40,081 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 23:14:48,267 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 23:14:48,270 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 23:14:48,271 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 73, in <module>
+2025-10-28 23:14:48,271 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-10-28 23:14:48,272 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-10-28 23:14:48,273 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-10-28 23:14:48,274 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-10-28 23:14:48,274 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-10-28 23:15:56,127 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 23:16:10,120 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 23:17:52,773 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 23:20:26,727 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-10-28 23:20:26,729 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-10-28 23:20:26,730 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 73, in <module>
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-10-28 23:20:26,731 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-10-28 23:20:26,732 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-10-28 23:20:26,733 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-10-28 23:20:28,016 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-10-28 23:20:28,816 | WARNING | screenmanager.py:1080 | [TO_DO]  Multiple screens named "splash": [<Screen name='splash'>, <Screen name='splash'>]
+2025-10-28 23:20:38,464 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...

@@ -16,7 +16,9 @@ class MainMenu(BoxLayout, Screen):
      Class for the main menu screen of the project
     """
     app = App.get_running_app()
+    """ Calling properties of the app """
     splash = app.root.get_screen("splash")
+    """Calling properties of the splash screen"""
     text_list = DictProperty()
     img_list = DictProperty()
 
@@ -38,17 +40,21 @@ class MainMenu(BoxLayout, Screen):
     text_exit = StringProperty()
     img_exit = StringProperty()
 
-    text_ver = StringProperty(app.config.get_param("app", "version"))
+    text_ver = StringProperty()
 
     name = StringProperty("main")
     config = ObjectProperty(app.config)
+    """ Calling config values  """
     log = ObjectProperty(app.log)
+    """ Logging for the main menu screen """
 
     def _init_properties(self):
         """
         Initializes the properties of the screen
         """
-        # init text properties
+        version = self.config.get_param("app", "version")
+        setattr(self, "text_ver", f"  версия\n{version}" if self.app.config.get_param("app", "language") == "ru"
+                                                         else f"  version\n{version}")
         setattr(self, "text_list", self.splash.i18n.get_param("main_menu"))
         for key, value in self.text_list.items():
             setattr(self, f"text_{key}", value)
@@ -67,23 +73,41 @@ class MainMenu(BoxLayout, Screen):
 
         self.log.debug("Init MainMenu")
 
-
-
-    def onconfirm_exit(self):
+    def _on_confirm_exit(self):
         """
-
+        Method called when the screen exits the application.
         """
+        color = self.app.colors["on_primary"]
+        font_name = "UI"
+        check_lang = self.config.get_param("app", "language") == "ru"
         box = BoxLayout(orientation="vertical", spacing=10, padding=10)
-        box.add_widget(Label(text="Выйти из приложения?" if self.app.config.get_param("app", "language") == "ru"
-        else "Do you want to exit?" ,font_name="UI", italic=True))
-        self.app.log.debug(self.app.config.get_param("app", "language"))
+        box.add_widget(Label(text="Выйти из приложения?" if check_lang else "Do you want to exit?",
+                             font_name=font_name,
+                             italic=True,
+                             color=color))
         btn = BoxLayout(size_hint_y=None, height="40dp", spacing=10)
-        btn.add_widget(Button(text="Отмена", on_release=lambda x: popup.dismiss()))
-        btn.add_widget(Button(text="Да", on_release=lambda x: self.app.stop()))
+        btn.add_widget(Button(text="Отмена" if check_lang else "Cancel",
+                              on_release=lambda _: popup.dismiss(),
+                              font_name=font_name,
+                              color=color))
+        btn.add_widget(Button(text="Да" if check_lang else "Yes",
+                              on_release=lambda _: self.app.stop(),
+                              font_name=font_name,
+                              color=color))
         box.add_widget(btn)
 
-        popup = Popup(title="Подтверждение", content=box, size_hint=(0.6, 0.3))
+        popup = Popup(title="Подтверждение" if check_lang else "Confirmation",
+                      title_align="center",
+                      title_color=color,
+                      separator_color=color,
+                      content=box,
+                      size_hint=(0.6, 0.3),
+                      background="",
+                      background_color=self.app.colors["primary_dark"],
+                      )
+
         popup.open()
+        popup.bind(on_open=lambda *_: self.log.debug("Open confirmation popup"))
 
     def change_lang(self):
         """

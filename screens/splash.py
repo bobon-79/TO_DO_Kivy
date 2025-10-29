@@ -56,6 +56,8 @@ class SplashScreen(Screen):
     thread = ObjectProperty()
     t_start = NumericProperty()
     event = ObjectProperty(Event())
+    app = ObjectProperty()
+    """ Instance of the running application. """
 
     def on_enter(self, *args):
         """
@@ -124,6 +126,7 @@ class SplashScreen(Screen):
     def _load_colors(self):
         from utils.getcolor import color
         self.app.colors = color.get_color()
+        """ Dict of colors """
 
     @pause()
     def _load_i18n(self):

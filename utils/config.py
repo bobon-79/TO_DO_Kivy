@@ -3,9 +3,7 @@ File containing the Config class
 
 """
 import json
-from kivy.app import App
-
-app = App.get_running_app()
+from utils import app
 
 
 class Config(app.preload):

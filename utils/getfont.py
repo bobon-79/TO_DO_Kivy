@@ -1,7 +1,6 @@
 """
 The module fonts.
 """
-from kivy.app import App
 from kivy.core.text import LabelBase
 from utils import app
 

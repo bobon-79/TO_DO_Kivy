@@ -30,6 +30,8 @@ class TO_DOApp(App):
     _load_kv()
     start_splash = BooleanProperty(False)
     log = ObjectProperty()
+    preload = ObjectProperty()
+    """Class for loading JSON data."""
     colors = ObjectProperty()
     menu = ObjectProperty()
 

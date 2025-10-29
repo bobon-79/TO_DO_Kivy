@@ -1,7 +1,6 @@
 """
 Module to get color from a JSON file.
 """
-from kivy.app import App
 from kivy.utils import get_color_from_hex
 from utils import app
 

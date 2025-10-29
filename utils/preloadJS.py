@@ -8,8 +8,9 @@ from pathlib import Path
 
 
 class PreloadJs:
-    """Base class for JSON loaders and get parameters."""
+    """Class for JSON loaders and get parameters."""
     BASE_DIR = Path(__file__).resolve().parent.parent
+    """Path to the base directory of the project."""
 
     def __init__(self, path: str):
         self.data = {}
