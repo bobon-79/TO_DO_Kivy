@@ -10,15 +10,14 @@ from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.screenmanager import Screen
 
+from utils.screens_data import ScreensData
 
-class MainMenu(BoxLayout, Screen):
+
+class MainMenu(BoxLayout, Screen, ScreensData):
     """
      Class for the main menu screen of the project
     """
-    app = App.get_running_app()
-    """ Calling properties of the app """
-    splash = app.root.get_screen("splash")
-    """Calling properties of the splash screen"""
+
     text_list = DictProperty()
     img_list = DictProperty()
 
@@ -40,44 +39,31 @@ class MainMenu(BoxLayout, Screen):
     text_exit = StringProperty()
     img_exit = StringProperty()
 
-    text_ver = StringProperty()
+    text_version = StringProperty()
 
     name = StringProperty("main")
-    config = ObjectProperty(app.config)
-    """ Calling config values  """
-    log = ObjectProperty(app.log)
-    """ Logging for the main menu screen """
 
-    def _init_properties(self):
-        """
-        Initializes the properties of the screen
-        """
-        version = self.config.get_param("app", "version")
-        setattr(self, "text_ver", f"  версия\n{version}" if self.app.config.get_param("app", "language") == "ru"
-                                                         else f"  version\n{version}")
-        setattr(self, "text_list", self.splash.i18n.get_param("main_menu"))
-        for key, value in self.text_list.items():
-            setattr(self, f"text_{key}", value)
-            setattr(self, f"img_{key}", self.splash.img.get_param("MD", key))
 
     def on_kv_post(self, *args):
         """
         Method called when before starting the screen
         """
-        self._init_properties()
+
 
     def on_enter(self, *args):
         """
         Initializes the screen
         """
-
         self.log.debug("Init MainMenu")
+        self._init_properties()
+
+
 
     def _on_confirm_exit(self):
         """
         Method called when the screen exits the application.
         """
-        color = self.app.colors["on_primary"]
+        color = self.colors["on_primary"]
         font_name = "UI"
         check_lang = self.config.get_param("app", "language") == "ru"
         box = BoxLayout(orientation="vertical", spacing=10, padding=10)
@@ -101,7 +87,7 @@ class MainMenu(BoxLayout, Screen):
                       title_color=color,
                       separator_color=color,
                       content=box,
-                      size_hint=(0.6, 0.3),
+                      size_hint=(1, 0.3),
                       background="",
                       background_color=self.app.colors["primary_dark"],
                       )
@@ -109,13 +95,3 @@ class MainMenu(BoxLayout, Screen):
         popup.open()
         popup.bind(on_open=lambda *_: self.log.debug("Open confirmation popup"))
 
-    def change_lang(self):
-        """
-        Changes the language of the app
-        """
-        self.app.log.debug("Change language")
-        lang = "ru" if self.app.config.get_param("app", "language") == "en" else "en"
-        self.app.config.set("app", "language",
-                            value=lang)
-        self.splash.i18n.switch(lang)
-        self._init_properties()

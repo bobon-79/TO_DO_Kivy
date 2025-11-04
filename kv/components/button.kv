@@ -1,11 +1,53 @@
-#:import dp kivy.metrics.dp
-
-
+<Button_1@Button+BaseMixin+FloatLayout>:
+    img: ""
+    normal_color: []
+    down_color: []
+    font_name: "UI"
+    bold: True
+    italic: True
+    background_normal: ""
+    background_down: ""
+    background_color: 0,0,0,0
+    font_size: sp(app.font_sizes["subtitle"])
+    canvas.before:
+        Color:
+            rgba: 0,0,0, .10 if self.state=="normal" else 0,0,0,0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(6)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: 0,0,0, .06 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(4)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: 0,0,0, .04 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x,   self.y-dp(2)
+            size: self.width, self.height
+            radius: [self.height/2]
+        Color:
+            rgba: self.normal_color if self.state == "normal" else self.down_color
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [self.height/2]
+        Color:
+            rgba: 1,1,1, .08 if self.state=="normal" else 0
+        RoundedRectangle:
+            pos: self.x, self.y + self.height*0.5
+            size: self.width, self.height*0.6
+            radius: [self.height/2]
 
 <Button_1>:
-
+    normal_color: app.colors['primary']
+    down_color: app.colors['primary_dark']
+    color: app.colors['on_primary']
     LabelImg:
-        color: app.colors["on_primary"]
+        id: label_img
+        color: root.color
         text: root.img
-        font_size:sp(self.adaptive_font("emoji", root.width))
+        font_size: app.font_sizes["emoji"]
 

@@ -11,29 +11,31 @@
         img: root.img_title
 
     Button_1:
-        font_size:sp(self.adaptive_font("title", root.width))
         id: listPlan
         text: root.text_listPlan
         img: root.img_listPlan
         on_release: root.change_lang()
 
     Button_1:
-        font_size:sp(self.adaptive_font("title", root.width))
         id: btn_addPlan
         text: root.text_addPlan
         img: root.img_addPlan
     Button_1:
-        font_size:sp(self.adaptive_font("title", root.width))
         id: btn_calendar
         text: root.text_calendar
         img: root.img_calendar
     Button_1:
-        font_size:sp(self.adaptive_font("title", root.width))
+        normal_color: app.colors["secondary"]
+        color: app.colors["on_secondary"]
+        down_color: app.colors["outline"]
         id: btn_settings
         text: root.text_settings
         img: root.img_settings
+        on_release: app.root.current = "settings"
     Button_1:
-        font_size:sp(self.adaptive_font("title", root.width))
+        normal_color: app.colors["inverse_primary"]
+        down_color: app.colors["secondary"]
+        color: app.colors["tertiary"]
         text: root.text_exit
         img: root.img_exit
         id: btn_exit
@@ -42,7 +44,7 @@
 
     Label:
         id: version_label
-        text: root.text_ver
+        text: root.text_version
         font_size: "12sp"
         color:  app.colors["accent"]
         height: self.texture_size[1] + 10

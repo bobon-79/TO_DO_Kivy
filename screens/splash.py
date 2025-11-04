@@ -1,7 +1,6 @@
 """
 The SplashScreen of the project.
 """
-
 from functools import wraps
 
 from kivy.logger import Logger
@@ -87,24 +86,21 @@ class SplashScreen(Screen):
             try:
                 fn()
             except Exception as e:
-                print(e)
                 err = e
                 Clock.schedule_once(lambda *_: setattr(self, 'status', f"Error:{err}\n on init -  self.{fn.__name__} "))
+                Logger.exception(f" {fn.__name__}: {err}")
                 return 1
             done += w
             pct = int(done / total * 100)
             Clock.schedule_once(lambda *_: setattr(self, 'progress', pct))
         dt = time.perf_counter() - self.t_start
         Clock.schedule_once(lambda *_: setattr(self, 'status', f"Done in {dt:.2f} c"))
-        Clock.schedule_once(lambda *_: self.app.load_screens(),0.8 )
+        Clock.schedule_once(lambda *_: self.app.load_screens(),0.8)
 
     @pause()
     def _load_configs(self):
-        from utils.preloadJS import PreloadJs
-        self.app.preload = PreloadJs
         from utils.config import config
         self.app.config = config
-
 
     @pause()
     def _init_logs(self):
@@ -120,7 +116,6 @@ class SplashScreen(Screen):
         self.app.font_sizes = font.get_sizes_font()
         from utils.getimg import image
         self.img = image  # loading image
-
 
     @pause()
     def _load_colors(self):
@@ -138,3 +133,6 @@ class SplashScreen(Screen):
         from screens.main_menu import MainMenu
         menu = MainMenu
         self.app.menu = menu
+        from screens.setting import SettingsScreen
+        settings = SettingsScreen
+        self.app.settings = settings

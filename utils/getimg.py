@@ -2,18 +2,18 @@
 Module to get image from assets/icons/icons
 """
 
-from utils import app
+from utils import app, PreloadJs
 
 
-class Image(app.preload):
+class Image(PreloadJs):
     """
     Class to get image from assets/icons/icons
     """
-    CONFIG_PATH = app.preload.BASE_DIR / "assets/icons/icons"
+    CONFIG_PATH = PreloadJs.BASE_DIR / "assets/icons/icons"
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
-        self.log = None
+        self.log = app.log
 
     def get_param(self, *keys, default=" "):
         """

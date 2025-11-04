@@ -3,10 +3,10 @@ File containing the Config class
 
 """
 import json
-from utils import app
+from utils import *
 
 
-class Config(app.preload):
+class Config(PreloadJs):
     """Class for loading and accessing application settings."""
     CONFIG_PATH = "config"
 

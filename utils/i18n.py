@@ -1,9 +1,10 @@
 """
 Internationalization and localization support.
 """
-from utils import app
+from utils import app, PreloadJs
 
-class I18N(app.preload):
+
+class I18N(PreloadJs):
     """
     Class for internationalization and localization support.
     """
@@ -25,7 +26,7 @@ class I18N(app.preload):
         :param lang:
         """
         self.lang = lang
-        self.config_path = app.preload.BASE_DIR / f"locales/{lang}.json"
+        self.config_path = PreloadJs.BASE_DIR / f"locales/{lang}.json"
         self.load_json()
 
 

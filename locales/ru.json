@@ -3,12 +3,21 @@
     "black": "#000000",
     "blue": "#316AE1"
   },
-  "main_menu": {
+  "main": {
     "title": "Планировщик задач",
     "listPlan": "Список задач",
     "addPlan": "Добавить задачу",
     "settings": "Настройки",
     "calendar": "Календарь",
-    "exit": "Выход"
+    "exit": "Выход",
+    "version": "  Версия\n{1.0.0 demo}"
+  },
+  "settings":{
+    "title": "Настройки",
+    "lang_ru": "Русский",
+    "lang_en": "Английский",
+    "back": "Назад",
+    "version": "  Версия\n{1.0.0 demo}"
+
   }
 }

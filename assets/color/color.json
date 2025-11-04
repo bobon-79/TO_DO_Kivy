@@ -2,23 +2,77 @@
   "light": {
     "primary": "#2196F3",
     "primary_dark": "#1976D2",
+    "secondary": "#03DAC6",
+    "tertiary": "#7E57C2",
     "accent": "#FF4081",
-    "background": "#ECEFF1",
+    "accent_dark": "#C2185B",
+
+    "background": "#F6F8FA",
     "surface": "#FFFFFF",
-    "error": "#F44336",
+    "surface_variant": "#E1E3E8",
+    "surface_container_lowest": "#FFFFFF",
+    "surface_container_low": "#F3F4F6",
+    "surface_container": "#ECEFF1",
+    "surface_container_high": "#E6E9EC",
+    "surface_container_highest": "#E0E3E7",
+
+    "error": "#B3261E",
+    "error_container": "#FFDAD6",
+
     "on_primary": "#FFFFFF",
+    "on_secondary": "#00332E",
+    "on_tertiary": "#FFFFFF",
+    "on_accent": "#FFFFFF",
     "on_background": "#212121",
-    "on_surface": "#000000"
+    "on_surface": "#000000",
+    "on_surface_variant": "#43474E",
+    "on_error": "#FFFFFF",
+    "on_error_container": "#410002",
+
+    "outline": "#74777F",
+    "outline_variant": "#C4C6CC",
+    "inverse_surface": "#2D3135",
+    "inverse_on_surface": "#E2E3E7",
+    "inverse_primary": "#A6C8FF",
+    "scrim": "#000000",
+    "shadow": "#000000"
   },
   "dark": {
     "primary": "#90CAF9",
     "primary_dark": "#2196F3",
+    "secondary": "#4FD8D8",
+    "tertiary": "#B39DDB",
     "accent": "#FF80AB",
+    "accent_dark": "#FF4081",
+
     "background": "#121212",
     "surface": "#1E1E1E",
+    "surface_variant": "#3A3E44",
+    "surface_container_lowest": "#0E0E0E",
+    "surface_container_low": "#151515",
+    "surface_container": "#1B1B1B",
+    "surface_container_high": "#212121",
+    "surface_container_highest": "#282828",
+
     "error": "#CF6679",
+    "error_container": "#8C1D18",
+
     "on_primary": "#000000",
+    "on_secondary": "#003737",
+    "on_tertiary": "#2D004E",
+    "on_accent": "#2D001A",
     "on_background": "#FFFFFF",
-    "on_surface": "#E0E0E0"
+    "on_surface": "#E0E0E0",
+    "on_surface_variant": "#C5C6CB",
+    "on_error": "#000000",
+    "on_error_container": "#FFDAD6",
+
+    "outline": "#8F9095",
+    "outline_variant": "#3F4247",
+    "inverse_surface": "#E3E3E8",
+    "inverse_on_surface": "#1B1C1E",
+    "inverse_primary": "#2E6DE6",
+    "scrim": "#000000",
+    "shadow": "#000000"
   }
 }

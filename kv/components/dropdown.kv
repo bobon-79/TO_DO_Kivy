@@ -1,0 +1,32 @@
+<DrDown@DropDown>:
+    auto_dismiss: True
+    root_screen: app.root.get_screen('settings')
+    BoxLayout:
+        orientation: 'vertical'
+        size_hint_y: None
+        height: self.minimum_height
+        spacing: dp(4)
+        padding: dp(4)
+        Button_1:
+            id: btn_ru
+            normal_color: app.colors["outline"] if app.config.get_param("app", "language") == "en" else app.colors["accent_dark"]
+            text: root.root_screen.text_lang_ru
+            font_size: app.font_sizes["body"]
+            size_hint_y: None
+            height: self.texture_size[1] + dp(0.5 *self.font_size)
+            on_release:
+                root.root_screen.change_lang() if app.config.get_param("app", "language") == "en" else ""
+                root.root_screen.ids.ddl_open.text = self.text
+                root.dismiss()
+
+        Button_1:
+            id: btn_en
+            normal_color: app.colors["outline"] if app.config.get_param("app", "language") == "ru" else app.colors["accent_dark"]
+            text: root.root_screen.text_lang_en
+            font_size: app.font_sizes["body"]
+            size_hint_y: None
+            height: self.texture_size[1] + dp(0.5 *self.font_size)
+            on_release:
+                root.root_screen.change_lang() if app.config.get_param("app", "language") == "ru" else ""
+                root.root_screen.ids.ddl_open.text = self.text
+                root.dismiss()

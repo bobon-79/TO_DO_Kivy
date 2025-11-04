@@ -1,5 +1,5 @@
 {
-"MD" : {
+"main" : {
   "bookOpen" : "U000F00BD",
   "title" : "U000F14F7",
   "listPlan": "U000F11D7",
@@ -7,5 +7,9 @@
   "calendar": "U000F08A7",
   "settings": "U000F08BB",
   "exit": "U000F0206"
-}
+},
+  "settings": {
+    "title": "U000F08BB",
+    "back": "U000F0050"
+  }
 }
