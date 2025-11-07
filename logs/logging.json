@@ -3,7 +3,9 @@
   "disable_existing_loggers": false,
   "formatters": {
     "readable": {
-      "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | [TO_DO]  %(message)s"
+      "format": "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | [TO_DO]  %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+
     }
   },
   "handlers": {
@@ -15,7 +17,7 @@
     },
       "file_prod": {
     "class": "logging.handlers.RotatingFileHandler",
-    "level": "INFO",
+    "level": "DEBUG",
     "formatter": "readable",
     "filename": "D:/Python/TO_DO_Kivy/logs/app.log",
     "maxBytes": 2097152,

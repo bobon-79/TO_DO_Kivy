@@ -10,14 +10,8 @@
     "background": "#F6F8FA",
     "surface": "#FFFFFF",
     "surface_variant": "#E1E3E8",
-    "surface_container_lowest": "#FFFFFF",
-    "surface_container_low": "#F3F4F6",
-    "surface_container": "#ECEFF1",
-    "surface_container_high": "#E6E9EC",
-    "surface_container_highest": "#E0E3E7",
 
     "error": "#B3261E",
-    "error_container": "#FFDAD6",
 
     "on_primary": "#FFFFFF",
     "on_secondary": "#00332E",
@@ -27,7 +21,6 @@
     "on_surface": "#000000",
     "on_surface_variant": "#43474E",
     "on_error": "#FFFFFF",
-    "on_error_container": "#410002",
 
     "outline": "#74777F",
     "outline_variant": "#C4C6CC",
@@ -35,7 +28,11 @@
     "inverse_on_surface": "#E2E3E7",
     "inverse_primary": "#A6C8FF",
     "scrim": "#000000",
-    "shadow": "#000000"
+     "stroke": "#999B9EE6",
+    "highlight": "#E0F7FF24",
+    "shadow": "#0000001F",
+    "hover": "#FFFFFF0A",
+    "pressed": "#00000014"
   },
   "dark": {
     "primary": "#90CAF9",
@@ -48,14 +45,8 @@
     "background": "#121212",
     "surface": "#1E1E1E",
     "surface_variant": "#3A3E44",
-    "surface_container_lowest": "#0E0E0E",
-    "surface_container_low": "#151515",
-    "surface_container": "#1B1B1B",
-    "surface_container_high": "#212121",
-    "surface_container_highest": "#282828",
 
     "error": "#CF6679",
-    "error_container": "#8C1D18",
 
     "on_primary": "#000000",
     "on_secondary": "#003737",
@@ -65,7 +56,6 @@
     "on_surface": "#E0E0E0",
     "on_surface_variant": "#C5C6CB",
     "on_error": "#000000",
-    "on_error_container": "#FFDAD6",
 
     "outline": "#8F9095",
     "outline_variant": "#3F4247",
@@ -73,6 +63,10 @@
     "inverse_on_surface": "#1B1C1E",
     "inverse_primary": "#2E6DE6",
     "scrim": "#000000",
-    "shadow": "#000000"
+     "stroke": "#E0E0E0A6",
+    "highlight": "#FFFFFF12",
+    "shadow": "#00000019",
+    "hover": "#FFFFFF0F",
+    "pressed": "#0000001A"
   }
 }

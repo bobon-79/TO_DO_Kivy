@@ -2,33 +2,48 @@
 #:import Factory kivy.factory.Factory
 #:import dp kivy.metrics.dp
 
-
-
 <SettingsScreen>:
     name: "settings"
     orientation: "vertical"
-    spacing: self.height/40
-    padding: self.width/20
+    spacing: self.height/25
+    padding: self.width/40
     Title:
         text: root.text_title
         img: root.img_title
+        size_hint_y: None
+        height: root.height_base
+
     Button_1:
         id: go_main
         text: root.text_back
+        size_hint_y: None
+        height: root.height_base
         img: root.img_back
-        on_release:app.root.current = "main"
-
-    Button_1:
-        id: ddl_open
-        text: "Русский" if app.config.get_param("app","language") == "ru" else "English"
         on_release:
-            (hasattr(self, "dropdown") or setattr(self, "dropdown", Factory.DrDown()))
-            self.dropdown.open(self)
-    Widget:
-    Button_1:
-        id: ddt_open
-    Widget:
-        size_hint: 1, 1
+            app.root.current = "main"
+
+    BoxLayout:
+        orientation: "vertical"
+        spacing: root.height/10
+        size_hint_y: None
+        height: self.minimum_height
+        Button_1:
+            id: ddl_open
+            size_hint_y: None
+            height: root.height_base
+            text: "Русский" if app.config.get_param("app","language") == "ru" else "English"
+            on_release:
+                (hasattr(self, "dropdown_lang") or setattr(self, "dropdown_lang", Factory.DrDownLang()))
+                self.dropdown_lang.open(self)
+
+        Button_1:
+            id: ddt_open
+            size_hint_y: None
+            height: root.height_base
+            text: root.change_theme
+            on_release:
+                (hasattr(self, "dropdown_theme") or setattr(self, "dropdown_theme", Factory.DrDownTheme()))
+                self.dropdown_theme.open(self)
 
 
     Label:

@@ -9,24 +9,19 @@
     background_down: ""
     background_color: 0,0,0,0
     font_size: sp(app.font_sizes["subtitle"])
+    radius: [self.height/2, self.height/2, self.height/2, self.height/2]
     canvas.before:
         Color:
-            rgba: 0,0,0, .10 if self.state=="normal" else 0,0,0,0
+            rgba: app.colors['shadow']
         RoundedRectangle:
-            pos: self.x,   self.y-dp(6)
-            size: self.width, self.height
+            pos: self.x, self.y - (dp(4) if self.state == 'normal' else 0)
+            size: self.size
             radius: [self.height/2]
         Color:
-            rgba: 0,0,0, .06 if self.state=="normal" else 0
+            rgba: app.colors['highlight'] if self.state == 'normal' else (0,0,0,0)
         RoundedRectangle:
-            pos: self.x,   self.y-dp(4)
-            size: self.width, self.height
-            radius: [self.height/2]
-        Color:
-            rgba: 0,0,0, .04 if self.state=="normal" else 0
-        RoundedRectangle:
-            pos: self.x,   self.y-dp(2)
-            size: self.width, self.height
+            pos: self.x, self.y + self.height * 0.1
+            size: self.width, self.height * 0.8
             radius: [self.height/2]
         Color:
             rgba: self.normal_color if self.state == "normal" else self.down_color
@@ -35,9 +30,14 @@
             pos: self.pos
             radius: [self.height/2]
         Color:
+            rgba: app.colors['stroke']
+        Line:
+            rounded_rectangle: (self.x, self.y, self.width, self.height, self.height/2, self.height/2, self.height/2, self.height/2)
+            width: dp(1)
+        Color:
             rgba: 1,1,1, .08 if self.state=="normal" else 0
         RoundedRectangle:
-            pos: self.x, self.y + self.height*0.5
+            pos: self.x, self.y + self.height*0.4
             size: self.width, self.height*0.6
             radius: [self.height/2]
 

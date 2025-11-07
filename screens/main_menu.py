@@ -3,7 +3,7 @@ The main menu screen of the project
 """
 
 from kivy.app import App
-from kivy.properties import StringProperty, ObjectProperty, DictProperty
+from kivy.properties import StringProperty, ObjectProperty, DictProperty, NumericProperty
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
@@ -48,7 +48,13 @@ class MainMenu(BoxLayout, Screen, ScreensData):
         """
         Method called when before starting the screen
         """
-
+    def on_pre_leave(self, *args, **kwargs):
+        """
+        Method called when before leaving the screen.
+        :param args:
+        :return:
+        """
+        setattr(self.app, 'btn_exit', self.ids.btn_exit.height)
 
     def on_enter(self, *args):
         """
@@ -87,7 +93,7 @@ class MainMenu(BoxLayout, Screen, ScreensData):
                       title_color=color,
                       separator_color=color,
                       content=box,
-                      size_hint=(1, 0.3),
+                      size_hint=(.9, 0.3),
                       background="",
                       background_color=self.app.colors["primary_dark"],
                       )

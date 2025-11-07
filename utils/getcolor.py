@@ -14,8 +14,7 @@ class Color(PreloadJs):
 
     def __init__(self, path=CONFIG_PATH):
         super().__init__(path)
-        self.config = app.config
-        self.theme = self.config.get_param("app", "theme")
+        self.theme = None
 
     def get_color(self):
         """
@@ -23,6 +22,7 @@ class Color(PreloadJs):
         {primary, primary_dark, accent, background, surface,
          on_background, on_primary, on_surface, error}.
         """
+        setattr(self, "theme", app.config.get_param("app", "theme"))
         if self.theme == "light":
             colors = self.get_param("light")
             return {k: get_color_from_hex(v) for k, v in colors.items()}

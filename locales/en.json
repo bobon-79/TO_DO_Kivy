@@ -17,7 +17,9 @@
     "lang_ru": "Russian",
     "lang_en": "English",
     "back": "Back",
-    "version": "  version\n {1.0.0 demo}"
+    "version": "  version\n {1.0.0 demo}",
+    "theme_light": "Light theme",
+    "theme_dark": "Dark theme"
   }
 }
 
