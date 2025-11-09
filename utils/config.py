@@ -3,17 +3,16 @@ File containing the Config class
 
 """
 import json
-from utils import *
+from utils import PreloadJs, dataclass, field, Any
 
-
+@dataclass
 class Config(PreloadJs):
     """Class for loading and accessing application settings."""
-    CONFIG_PATH = "config"
+    path: str = field(default="config")
+    data: dict[str, Any] = field(default_factory=dict)
 
-    def __init__(self, path=CONFIG_PATH):
-        super().__init__(path)
-        self.data = {}
-        self.load_json()
+    def __post_init__(self):
+        super().__post_init__()
 
     def save(self):
         """Save settings to the config.json file"""

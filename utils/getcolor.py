@@ -1,20 +1,20 @@
 """
 Module to get color from a JSON file.
 """
+from email.policy import default
+
 from kivy.utils import get_color_from_hex
-from utils import app, PreloadJs
+from utils import app, PreloadJs, dataclass, field
 
 
+@dataclass
 class Color(PreloadJs):
     """
     Color class to load color from a JSON file.
     """
 
-    CONFIG_PATH = PreloadJs.BASE_DIR / "assets/color/color"
-
-    def __init__(self, path=CONFIG_PATH):
-        super().__init__(path)
-        self.theme = None
+    path: str = field(default="assets/color/color")
+    theme: str = field(init=False)
 
     def get_color(self):
         """

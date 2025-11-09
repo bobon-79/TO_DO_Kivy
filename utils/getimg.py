@@ -1,29 +1,24 @@
 """
 Module to get image from assets/icons/icons
 """
+from logging import Logger
+from utils import app, PreloadJs, dataclass, field
 
-from utils import app, PreloadJs
-
-
+@dataclass
 class Image(PreloadJs):
     """
     Class to get image from assets/icons/icons
     """
-    CONFIG_PATH = PreloadJs.BASE_DIR / "assets/icons/icons"
+    path: str = field(default="assets/icons/icons")
+    log: Logger = field(default=app.log)
 
-    def __init__(self, path=CONFIG_PATH):
-        super().__init__(path)
-        self.log = app.log
-
-    def get_param(self, *keys, default=" "):
+    def get_param(self, *keys, default=""):
         """
         Get text from JSON and convert to Unicode symbol.
         :param keys: Keys to get a value from JSON.
         :param default:
         :return:
         """
-        self.log = app.log
-
         try:
             img = chr(int(super().get_param(*keys)[1:], 16))
         except (KeyError, ValueError) as e:

@@ -1,18 +1,21 @@
 """
 The module fonts.
 """
+from logging import Logger
+
 from kivy.core.text import LabelBase
-from utils import app, PreloadJs
+from utils import app, PreloadJs, field, dataclass
 
-
+@dataclass
 class Font(PreloadJs):
     """
     The Font class.
     """
-    CONFIG_PATH = PreloadJs.BASE_DIR / "assets/fonts/font"
+    path: str = field(default="assets/fonts/font")
+    log: Logger = field(default=app.log)
 
-    def __init__(self, path=CONFIG_PATH):
-        super().__init__(path)
+    def __post_init__(self):
+        super().__post_init__()
         LabelBase.register(
             name="UI",
             fn_regular=self.get_param("UI", "regular"),
@@ -26,7 +29,6 @@ class Font(PreloadJs):
         LabelBase.register(
             name="Emoji",
             fn_regular=self.get_param("Emoji", "regular"))
-        self.log = app.log
 
     def get_sizes_font(self, default_size="16sp"):
         """
@@ -41,5 +43,6 @@ class Font(PreloadJs):
             self.log.Warning(f"Font sizes not found")
             return default_size
         return sizes
+
 
 font = Font()

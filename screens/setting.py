@@ -1,6 +1,7 @@
 """
 
 """
+
 from kivy.core.window import Window
 from kivy.properties import StringProperty, NumericProperty, DictProperty
 from kivy.uix.boxlayout import BoxLayout
@@ -8,7 +9,6 @@ from kivy.uix.screenmanager import Screen
 
 from utils.getcolor import color
 from utils.screens_data import ScreensData
-
 
 class SettingsScreen(BoxLayout, Screen, ScreensData):
     name = 'settings'
@@ -35,8 +35,9 @@ class SettingsScreen(BoxLayout, Screen, ScreensData):
         :param lang:
         """
         (setattr(self, "change_theme", self.text_theme_light)
-         if self.config.get_param("app","theme") == "light"
+         if self.config.get_param("app", "theme") == "light"
          else setattr(self, "change_theme", self.text_theme_dark))
+
 
     def on_enter(self):
         """
@@ -63,7 +64,7 @@ class SettingsScreen(BoxLayout, Screen, ScreensData):
         self.config.set("app", "language",
                         value=lang)
         self.app.log.debug(f"Change language on - {self.config.get_param('app', 'language')}")
-        self.splash.i18n.switch(lang)
+        self.splash.i18n.switch()
         self._init_properties()
         self.change_ddt()
 

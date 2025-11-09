@@ -2,42 +2,41 @@
 Module for loading JSON files and getting parameters.
 """
 
-import json
-import os
-from pathlib import Path
+from utils import dataclass, field, ClassVar,Any, Path, json, os, annotations
 
-
+@dataclass
 class PreloadJs:
-    """Class for JSON loaders and get parameters."""
-    BASE_DIR = Path(__file__).resolve().parent.parent
-    """Path to the base directory of the project."""
+    """Upload JSON and access parameters."""
+    path: str
+    data: dict[str, Any] = field(default_factory=dict)
+    config_path: Path = field(init=False)
 
-    def __init__(self, path: str):
-        self.data = {}
-        self.config_path = PreloadJs.BASE_DIR / f"{path}.json"
+    BASE_DIR: ClassVar[Path] = Path(__file__).resolve().parent.parent
+
+    def __post_init__(self) -> None:
+        self.config_path = self.BASE_DIR / f"{self.path}.json"
         self.load_json()
 
-    def load_json(self):
-        f"""
-        Loads JSON {self.config_path}.
+    def load_json(self) -> None:
+        """
+        Load JSON files.
         """
         if not os.path.exists(self.config_path):
             raise FileNotFoundError(f"Config file not found: {self.config_path}")
         with open(self.config_path, encoding="utf-8") as f:
             self.data = json.load(f)
 
-    def get_param(self, *keys, default={}):
+    def get_param(self, *keys: str, default: Any = None) -> Any:
         """
-        Get parameter from JSON data.
-            :param keys:  keys to get parameter.
-            :param default:{} Default value if parameter not found.
+        Metod for getting parameter.
+        :param keys:
+        :param default:
+        :return:
         """
-        d = self.data
-        for key in keys:
-            if isinstance(d, dict) and key in d:
-                d = d[key]
+        d: Any = self.data
+        for k in keys:
+            if isinstance(d, dict) and k in d:
+                d = d[k]
             else:
                 return default
         return d
-
-
