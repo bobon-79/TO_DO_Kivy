@@ -2,14 +2,14 @@
 The main menu screen of the project
 """
 
-from kivy.app import App
-from kivy.properties import StringProperty, ObjectProperty, DictProperty, NumericProperty
+from kivy.properties import StringProperty, DictProperty
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.screenmanager import Screen
 
+from models.models_orm import TaskModel
 from utils.screens_data import ScreensData
 
 
@@ -48,6 +48,7 @@ class MainMenu(BoxLayout, Screen, ScreensData):
         """
         Method called when before starting the screen
         """
+        print(TaskModel.select().count())
     def on_pre_leave(self, *args, **kwargs):
         """
         Method called when before leaving the screen.

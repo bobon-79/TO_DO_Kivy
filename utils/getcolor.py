@@ -11,14 +11,20 @@ from utils import app, PreloadJs, dataclass, field
 class Color(PreloadJs):
     """
     Color class to load color from a JSON file.
+    Attributes: path, theme\n
+       path: str = "assets/color/color”\n
+       theme: str = field(init=False)\n
     """
 
     path: str = field(default="assets/color/color")
     theme: str = field(init=False)
 
-    def get_color(self):
+
+    def get_color(self)->dict[str, list[float]]:
         """
-        Get color from the JSON file.
+        Get color from the JSON file.\n
+        Returns: dict[str, list[float]]\n
+
         {primary, primary_dark, accent, background, surface,
          on_background, on_primary, on_surface, error}.
         """

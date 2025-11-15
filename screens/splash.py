@@ -76,6 +76,7 @@ class SplashScreen(Screen):
             ("loading colors", 1, self._load_colors),
             ("loading i18n…", 1, self._load_i18n),
             ("Loading screens…", 1, self._init_screens),
+            ("Loading database…", 1, self._init_db)
         ]
         done = 0
         total = sum(w for _, w, __ in tasks)
@@ -119,7 +120,8 @@ class SplashScreen(Screen):
 
     @pause()
     def _load_colors(self):
-        from utils.getcolor import color
+        from utils.getcolor import Color
+        color = Color()
         self.app.colors = color.get_color()
         """ Dict of colors """
 
@@ -136,3 +138,8 @@ class SplashScreen(Screen):
         from screens.setting import SettingsScreen
         settings = SettingsScreen
         self.app.settings = settings
+    @pause()
+    def _init_db(self):
+        from utils.db import db
+        db.create_or_migrate()
+        self.app.db_task = db

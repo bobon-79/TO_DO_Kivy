@@ -9,7 +9,6 @@ from utils import PreloadJs, dataclass, field, Any
 class Config(PreloadJs):
     """Class for loading and accessing application settings."""
     path: str = field(default="config")
-    data: dict[str, Any] = field(default_factory=dict)
 
     def __post_init__(self):
         super().__post_init__()

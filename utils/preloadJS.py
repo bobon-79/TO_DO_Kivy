@@ -1,15 +1,25 @@
 """
 Module for loading JSON files and getting parameters.
 """
+from __future__ import annotations
 
-from utils import dataclass, field, ClassVar,Any, Path, json, os, annotations
+from utils import dataclass, field, ClassVar,Any, Path, json, os
 
 @dataclass
 class PreloadJs:
-    """Upload JSON and access parameters."""
+    """
+    Upload JSON and access parameters.
+    Attributes: path,data, config_path\n
+        path: str - path to JSON file.\n
+       data: dict[str | Any] — dictionary with JSON data.\n
+        config_path: Path - path to JSON file.\n
+    Methods: load_json, get_param\n
+        load_json() — load JSON file.\n
+        get_param(*keys: str, default: Any = None) → dict[str, Any]|str — get parameter from JSON file.
+    """
     path: str
-    data: dict[str, Any] = field(default_factory=dict)
     config_path: Path = field(init=False)
+    data: dict[str | Any] = field(default_factory=dict)
 
     BASE_DIR: ClassVar[Path] = Path(__file__).resolve().parent.parent
 
@@ -26,9 +36,9 @@ class PreloadJs:
         with open(self.config_path, encoding="utf-8") as f:
             self.data = json.load(f)
 
-    def get_param(self, *keys: str, default: Any = None) -> Any:
+    def get_param(self, *keys: str, default: Any = None) -> dict[str, Any]|str:
         """
-        Metod for getting parameter.
+        Method for getting parameter.
         :param keys:
         :param default:
         :return:

@@ -4805,3 +4805,2730 @@ AttributeError: 'Font' object has no attribute 'config_path'
 2025-11-09 10:15:40 | DEBUG | setting.py:66 | [TO_DO]  Change language on - ru
 2025-11-09 10:15:43 | DEBUG | setting.py:80 | [TO_DO]  Change Theme on - dark
 2025-11-09 10:15:46 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 10:21:15 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 10:21:17 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 10:21:20 | DEBUG | setting.py:49 | [TO_DO]  load settings screen
+2025-11-09 10:21:23 | DEBUG | setting.py:80 | [TO_DO]  Change Theme on - light
+2025-11-09 10:21:25 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 10:21:26 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-09 10:21:28 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 10:21:31 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 10:21:34 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 10:21:37 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-09 10:21:39 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 12:37:19 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 12:37:21 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 12:37:23 | DEBUG | setting.py:49 | [TO_DO]  load settings screen
+2025-11-09 12:37:27 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 383, in idle
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch_input()
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     post_dispatch_input(*pop(0))
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 263, in post_dispatch_input
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     listener.dispatch('on_motion', etype, me)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\core\window\__init__.py", line 1713, in on_motion
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_touch_up', me)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\core\window\__init__.py", line 1750, in on_touch_up
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     if w.dispatch('on_touch_up', touch):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\dropdown.py", line 319, in on_touch_up
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(DropDown, self).on_touch_up(touch)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\scrollview.py", line 972, in on_touch_up
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     if self.dispatch('on_scroll_stop', touch):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\scrollview.py", line 1009, in on_scroll_stop
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.simulate_touch_down(touch)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\scrollview.py", line 672, in simulate_touch_down
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ret = super(ScrollView, self).on_touch_down(touch)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     if child.dispatch('on_touch_down', touch):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     if child.dispatch('on_touch_down', touch):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 589, in on_touch_down
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     if child.dispatch('on_touch_down', touch):
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 151, in on_touch_down
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_press')
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\lang\builder.py", line 60, in custom_callback
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     exec(__kvlang__.co_value, idmap)
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\kv\components\dropdown.kv", line 64, in <module>
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     root.root_screen.__change_theme("dark")
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr:     ^^^^^^^^^^^^^^^
+2025-11-09 12:37:27 | WARNING | logger.py:390 | [TO_DO]  stderr: AttributeError: 'SettingsScreen' object has no attribute '__change_theme'. Did you mean: 'change_theme'?
+2025-11-09 12:39:32 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 12:39:34 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 12:39:37 | DEBUG | setting.py:49 | [TO_DO]  load settings screen
+2025-11-09 12:39:40 | DEBUG | setting.py:80 | [TO_DO]  Change Theme on - dark
+2025-11-09 12:39:42 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 12:39:43 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 12:40:50 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 12:40:52 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 16:06:37 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 16:06:39 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 16:06:41 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-09 16:06:43 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 18:08:55 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 18:08:57 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 18:08:59 | DEBUG | setting.py:49 | [TO_DO]  load settings screen
+2025-11-09 18:09:02 | DEBUG | setting.py:80 | [TO_DO]  Change Theme on - light
+2025-11-09 18:09:04 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 18:09:05 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-09 19:42:49 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-09 19:42:51 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-09 19:42:53 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-09 19:42:55 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 08:43:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 08:43:29 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 08:43:32 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 08:43:33 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 10:45:24 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 10:45:25 | ERROR | splash.py:92 | [TO_DO]   _init_db: cannot import name 'db' from partially initialized module 'utils.db' (most likely due to a circular import) (D:\Python\TO_DO_Kivy\utils\db.py)
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 5, in <module>
+    from models.models_orm import TagModel, TaskTagModel, TaskModel
+  File "D:\Python\TO_DO_Kivy\models\models_orm.py", line 6, in <module>
+    from utils.db import db
+ImportError: cannot import name 'db' from partially initialized module 'utils.db' (most likely due to a circular import) (D:\Python\TO_DO_Kivy\utils\db.py)
+2025-11-10 10:45:48 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 10:52:29 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 10:52:30 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'schema_version' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 11, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'schema_version' follows default argument 'data'
+2025-11-10 10:52:36 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 10:54:42 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 10:54:43 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'schema_version' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 11, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'schema_version' follows default argument 'data'
+2025-11-10 10:54:48 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 10:56:50 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 10:56:51 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.app.db = db.create_or_migrate()
+                  ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 10:56:59 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 10:59:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 10:59:28 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.app.db = db.create_or_migrate()
+                  ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 10:59:32 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:00:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:00:28 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'schema_version' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 11, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'schema_version' follows default argument 'data'
+2025-11-10 11:00:31 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:02:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:02:28 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'schema_version' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 11, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'schema_version' follows default argument 'data'
+2025-11-10 11:02:32 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:05:13 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:05:14 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'schema_version' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 11, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'schema_version' follows default argument 'data'
+2025-11-10 11:05:18 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:23:21 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:23:22 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.app.db = db.create_or_migrate()
+                  ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:23:29 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:38:30 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:38:31 | DEBUG | splash.py:144 | [TO_DO]  DB path: data/tasks.db
+2025-11-10 11:38:31 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    self.app.db = db.create_or_migrate()
+                  ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:38:40 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:39:31 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:39:32 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 11:39:32 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    self.app.db = db.create_or_migrate()
+                  ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:39:51 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:44:08 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:44:09 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 11:44:09 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:44:24 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-11-10 11:44:24 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-11-10 11:52:23 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:52:24 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db,data/tasks
+2025-11-10 11:52:24 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:52:32 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:53:43 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:53:44 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db,data/tasks
+2025-11-10 11:53:44 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:53:52 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:54:43 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:54:44 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db,{}
+2025-11-10 11:54:44 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 11:54:49 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:56:35 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:56:36 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.log.debug(f"DB path: {db.path_db},{db.config_path}")
+                                            ^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 11:56:49 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 11:59:00 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 11:59:01 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.log.debug(f"DB path: {db.path_db},{db.config_path}")
+                                            ^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 11:59:12 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:00:41 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:00:42 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    self.log.debug(f"DB path: {db.path_db},{db.config_path}")
+                                            ^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 12:00:47 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:02:16 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:02:17 | DEBUG | splash.py:145 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:02:17 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 146, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 49, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 12:02:34 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:03:10 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:03:11 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 144, in _init_db
+    print(db.config_path)
+          ^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 12:03:16 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:04:11 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:04:12 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 75, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 24, in __post_init__
+    print(self.config_path)
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 12:04:16 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:05:37 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:05:38 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 75, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 24, in __post_init__
+    print(self.config_path)
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 12:05:41 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:13:21 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:13:22 | ERROR | splash.py:92 | [TO_DO]   _init_db: 'Db' object has no attribute 'config_path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 75, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 24, in __post_init__
+    print(self.config_path)
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'Db' object has no attribute 'config_path'
+2025-11-10 12:13:33 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:13:58 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:13:59 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:13:59 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 50, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 12:14:09 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:14:59 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:15:00 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:15:00 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 50, in create_or_migrate
+    self.db.connect(reuse_if_open=True)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 12:15:08 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:16:04 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:16:05 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:16:06 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 12:16:13 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:18:07 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:18:08 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'config_path' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 13, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'config_path' follows default argument 'data'
+2025-11-10 12:18:18 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:18:41 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:18:42 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'config_path' follows default argument 'data'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 13, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'config_path' follows default argument 'data'
+2025-11-10 12:18:47 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:20:19 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:20:20 | ERROR | splash.py:92 | [TO_DO]   _init_db: non-default argument 'config_path' follows default argument 'path'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 13, in <module>
+    @dataclass
+     ^^^^^^^^^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1305, in dataclass
+    return wrap(cls)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1295, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+                          frozen, match_args, kw_only, slots,
+                          weakref_slot)
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 1078, in _process_class
+    _init_fn(all_init_fields,
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+             std_init_fields,
+             ^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+             slots,
+             ^^^^^^
+             )
+             ^
+  File "C:\Users\bobon\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 627, in _init_fn
+    raise TypeError(f'non-default argument {f.name!r} '
+                    f'follows default argument {seen_default.name!r}')
+TypeError: non-default argument 'config_path' follows default argument 'path'
+2025-11-10 12:20:29 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:21:36 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:21:37 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:21:39 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 12:21:48 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:22:14 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:22:15 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:22:16 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 12:22:22 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 12:22:24 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:27:39 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:27:40 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 12:27:42 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 12:27:47 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:35:45 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:35:46 | ERROR | splash.py:92 | [TO_DO]   _load_colors: 'NoneType' object has no attribute 'items'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 125, in _load_colors
+    self.app.colors = color.get_color()
+                      ~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\getcolor.py", line 36, in get_color
+    return {k: get_color_from_hex(v) for k, v in colors.items()}
+                                                 ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2025-11-10 12:35:55 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:36:21 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:36:21 | ERROR | splash.py:92 | [TO_DO]   _load_colors: 'NoneType' object has no attribute 'items'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 125, in _load_colors
+    self.app.colors = color.get_color()
+                      ~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\getcolor.py", line 36, in get_color
+    return {k: get_color_from_hex(v) for k, v in colors.items()}
+                                                 ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'
+2025-11-10 12:36:26 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:36:49 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:36:50 | ERROR | splash.py:92 | [TO_DO]   _init_db: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 77, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 25, in __post_init__
+    super().__post_init__()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 29, in __post_init__
+    self.load_json()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 36, in load_json
+    raise FileNotFoundError(f"Config file not found: {self.config_path}")
+FileNotFoundError: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+2025-11-10 12:36:54 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 12:37:26 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 12:37:27 | ERROR | splash.py:92 | [TO_DO]   _init_db: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 77, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 25, in __post_init__
+    super().__post_init__()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 29, in __post_init__
+    self.load_json()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 36, in load_json
+    raise FileNotFoundError(f"Config file not found: {self.config_path}")
+FileNotFoundError: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+2025-11-10 12:37:32 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:00:33 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:00:34 | ERROR | splash.py:92 | [TO_DO]   _init_db: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 77, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 25, in __post_init__
+    super().__post_init__()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 28, in __post_init__
+    self.load_json()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 35, in load_json
+    raise FileNotFoundError(f"Config file not found: {self.config_path}")
+FileNotFoundError: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+2025-11-10 13:00:38 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:01:50 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:01:51 | ERROR | splash.py:92 | [TO_DO]   _init_db: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 77, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 25, in __post_init__
+    super().__post_init__()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 28, in __post_init__
+    self.load_json()
+    ~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\preloadJS.py", line 35, in load_json
+    raise FileNotFoundError(f"Config file not found: {self.config_path}")
+FileNotFoundError: Config file not found: D:\Python\TO_DO_Kivy\data\tasks.json
+2025-11-10 13:01:54 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-11-10 13:01:54 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-11-10 13:04:25 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:04:27 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:04:28 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 13:04:32 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 13:04:34 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:05:29 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:05:30 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:05:31 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 13:05:32 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:05:43 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:05:44 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:05:44 | ERROR | splash.py:92 | [TO_DO]   _init_db: database attribute does not appear to be set on the model: <Model: TagModel>
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel, TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7080, in create_table
+    if safe and not cls._schema.database.safe_create_index \
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 5965, in database
+    raise ImproperlyConfigured('database attribute does not appear to '
+                               'be set on the model: %s' % self.model)
+peewee.ImproperlyConfigured: database attribute does not appear to be set on the model: <Model: TagModel>
+2025-11-10 13:05:53 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:21:43 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:21:44 | WARNING | logger.py:390 | [TO_DO]  stderr: D:\Python\TO_DO_Kivy\models\models_orm.py:23: SyntaxWarning: invalid escape sequence '\P'
+2025-11-10 13:21:44 | WARNING | logger.py:390 | [TO_DO]  stderr:   database = SqliteDatabase("D:\Python\TO_DO_Kivy\data\tasks.db")  # database connection object
+2025-11-10 13:21:44 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:21:44 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:22:02 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:22:14 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:22:15 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:22:15 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:22:47 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-11-10 13:22:47 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-11-10 13:23:11 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:23:12 | WARNING | logger.py:390 | [TO_DO]  stderr: D:\Python\TO_DO_Kivy\models\models_orm.py:22: SyntaxWarning: invalid escape sequence '\P'
+2025-11-10 13:23:12 | WARNING | logger.py:390 | [TO_DO]  stderr:   database = SqliteDatabase("D:\Python\TO_DO_Kivy\data\tasks.db")  # database connection object
+2025-11-10 13:23:12 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:23:12 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:23:18 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:24:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:24:28 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:24:28 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:24:33 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:25:26 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:25:27 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:25:27 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:25:35 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:25:48 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:25:49 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:25:49 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:25:52 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:26:34 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:26:35 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:26:35 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:26:40 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:28:04 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:28:05 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:28:05 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:28:12 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:29:51 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:29:52 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:29:57 | ERROR | splash.py:92 | [TO_DO]   _init_db: database is locked
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+peewee.OperationalError: database is locked
+2025-11-10 13:30:04 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:31:01 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:31:02 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:31:07 | ERROR | splash.py:92 | [TO_DO]   _init_db: database is locked
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+peewee.OperationalError: database is locked
+2025-11-10 13:31:14 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:32:56 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:32:57 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:33:03 | ERROR | splash.py:92 | [TO_DO]   _init_db: database is locked
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+peewee.OperationalError: database is locked
+2025-11-10 13:33:06 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:33:47 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:33:48 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:33:49 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 13:33:57 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 13:33:58 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:34:07 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:34:09 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:34:10 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 13:34:14 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:34:33 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:34:34 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:34:34 | ERROR | splash.py:92 | [TO_DO]   _init_db: database is locked
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 59, in create_or_migrate
+    self._set_version(self.schema_version)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 44, in _set_version
+    self.db.execute_sql(SET_META_VERSION, (str(v),))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3322, in execute_sql
+    cursor.execute(sql, params or ())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+peewee.OperationalError: database is locked
+2025-11-10 13:34:37 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:46:27 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:46:28 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:46:28 | ERROR | splash.py:92 | [TO_DO]   _init_db: database attribute does not appear to be set on the model: <Model: TagModel>
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 58, in create_or_migrate
+    self.db.create_tables(models=[TagModel(self.db), TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7080, in create_table
+    if safe and not cls._schema.database.safe_create_index \
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 5965, in database
+    raise ImproperlyConfigured('database attribute does not appear to '
+                               'be set on the model: %s' % self.model)
+peewee.ImproperlyConfigured: database attribute does not appear to be set on the model: <Model: TagModel>
+2025-11-10 13:46:35 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:55:39 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:55:40 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:55:40 | ERROR | splash.py:92 | [TO_DO]   _init_db: database attribute does not appear to be set on the model: <Model: TagModel>
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 56, in create_or_migrate
+    self.db.create_tables(models=[TagModel, TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7080, in create_table
+    if safe and not cls._schema.database.safe_create_index \
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 5965, in database
+    raise ImproperlyConfigured('database attribute does not appear to '
+                               'be set on the model: %s' % self.model)
+peewee.ImproperlyConfigured: database attribute does not appear to be set on the model: <Model: TagModel>
+2025-11-10 13:55:45 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:55:58 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:55:59 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:55:59 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 56, in create_or_migrate
+    self.db.create_tables(models=[TagModel, TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:56:09 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:58:11 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:58:12 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:58:12 | ERROR | splash.py:92 | [TO_DO]   _init_db: unable to open database file
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 56, in create_or_migrate
+    self.db.create_tables(models=[TagModel, TaskModel, TaskTagModel])
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3508, in create_tables
+    model.create_table(**options)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 7085, in create_table
+    cls._schema.create_all(safe, **options)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6178, in create_all
+    self.create_table(safe, **table_options)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 6034, in create_table
+    self.database.execute(self._create_table(safe=safe, **options))
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3330, in execute
+    return self.execute_sql(sql, params)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3320, in execute_sql
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3321, in execute_sql
+    cursor = self.cursor()
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3311, in cursor
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3262, in connect
+    with __exception_wrapper__:
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3088, in __exit__
+    reraise(new_type, new_type(exc_value, *exc_args), traceback)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 196, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3263, in connect
+    self._state.set_connection(self._connect())
+                               ~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 3604, in _connect
+    conn = sqlite3.connect(self.database, timeout=self._timeout,
+                           isolation_level=None, **self.connect_params)
+peewee.OperationalError: unable to open database file
+2025-11-10 13:58:15 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 13:59:07 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 13:59:08 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 13:59:09 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 13:59:14 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 13:59:16 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 14:01:52 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 14:01:53 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 14:01:53 | ERROR | splash.py:92 | [TO_DO]   _init_db: SqliteDatabase.__init__() missing 1 required positional argument: 'database'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 145, in _init_db
+    db.create_or_migrate()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 54, in create_or_migrate
+    from models.models_orm import TagModel, TaskTagModel, TaskModel
+  File "D:\Python\TO_DO_Kivy\models\models_orm.py", line 14, in <module>
+    class BaseModel(Model):
+    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+            database = SqliteDatabase()  # database connection object
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\models\models_orm.py", line 18, in BaseModel
+    class Meta:
+    ^^^^^^^^^^^
+    ...<3 lines>...
+        database = SqliteDatabase()  # database connection object
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\models\models_orm.py", line 22, in Meta
+    database = SqliteDatabase()  # database connection object
+TypeError: SqliteDatabase.__init__() missing 1 required positional argument: 'database'
+2025-11-10 14:01:59 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 15:18:40 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 15:18:41 | ERROR | splash.py:92 | [TO_DO]   _init_db: unhashable type: 'Db'
+Traceback (most recent call last):
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 88, in _load
+    fn()
+    ~~^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 40, in wrapper
+    func(*args, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\TO_DO_Kivy\screens\splash.py", line 143, in _init_db
+    from utils.db import db
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 77, in <module>
+    db = Db()
+  File "<string>", line 7, in __init__
+  File "D:\Python\TO_DO_Kivy\utils\db.py", line 24, in __post_init__
+    self.db = self._get_db() or None
+              ~~~~~~~~~~~~^^
+TypeError: unhashable type: 'Db'
+2025-11-10 15:18:48 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 15:19:50 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 15:19:51 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 15:19:52 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 15:20:02 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 15:20:21 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 15:20:22 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 15:20:24 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 15:20:27 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 15:20:29 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 15:20:50 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 15:20:51 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 15:20:52 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 15:20:55 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 15:35:52 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 15:35:53 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 15:35:55 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 15:35:59 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 15:36:01 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:01:35 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:01:36 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:01:37 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 16:01:41 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 16:01:42 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:04:41 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:04:42 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:04:44 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 16:05:07 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:                        ~~~~~~~~~^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 689, in idle
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     usleep(1000000 * sleeptime)
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 965, in usleep
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     _usleep(microseconds, self._sleep_obj)
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 504, in _usleep
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     _kernel32.WaitForSingleObject(obj, 0xffffffff)
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-11-10 16:05:07 | WARNING | logger.py:390 | [TO_DO]  stderr: KeyboardInterrupt
+2025-11-10 16:09:07 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:09:08 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:09:09 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 16:09:13 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 16:09:15 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:13:46 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:13:47 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:13:49 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 16:14:04 | DEBUG | setting.py:49 | [TO_DO]  load settings screen
+2025-11-10 16:14:08 | DEBUG | setting.py:80 | [TO_DO]  Change Theme on - dark
+2025-11-10 16:14:11 | DEBUG | main_menu.py:63 | [TO_DO]  Init MainMenu
+2025-11-10 16:14:13 | DEBUG | main_menu.py:102 | [TO_DO]  Open confirmation popup
+2025-11-10 16:14:15 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:22:22 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:22:23 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:22:24 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr: Traceback (most recent call last):
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 69, in <module>
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     TO_DOApp().run()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\app.py", line 956, in run
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     runTouchApp()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     EventLoop.mainloop()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.idle()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\base.py", line 379, in idle
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.tick()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.post_idle(ts, self.idle())
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self._process_events()
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\splash.py", line 99, in <lambda>
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     Clock.schedule_once(lambda *_: self.app.load_screens(),0.8)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:                                    ~~~~~~~~~~~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\main.py", line 64, in load_screens
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.root.add_widget(self.menu())
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:                          ~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\boxlayout.py", line 145, in __init__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(BoxLayout, self).__init__(**kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\relativelayout.py", line 274, in __init__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(RelativeLayout, self).__init__(**kw)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\floatlayout.py", line 65, in __init__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(FloatLayout, self).__init__(**kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\layout.py", line 76, in __init__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     super(Layout, self).__init__(**kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\kivy\uix\widget.py", line 372, in __init__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     self.dispatch('on_kv_post', self)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\screens\main_menu.py", line 52, in on_kv_post
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     print(TaskModel.select().count())
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:           ~~~~~~~~~~~~~~~~~~~~~~~~^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2036, in inner
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return method(self, database, *args, **kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2321, in count
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return Select([clone], [fn.COUNT(SQL('1'))]).scalar(database)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2036, in inner
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return method(self, database, *args, **kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2301, in scalar
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     row = self.tuples().peek(database)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2036, in inner
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return method(self, database, *args, **kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2286, in peek
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     rows = self.execute(database)[:n]
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:            ~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2036, in inner
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return method(self, database, *args, **kwargs)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2107, in execute
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     return self._execute(database)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:            ~~~~~~~~~~~~~^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 2280, in _execute
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     cursor = database.execute(self)
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:              ^^^^^^^^^^^^^^^^
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:   File "D:\Python\TO_DO_Kivy\.venv\Lib\site-packages\peewee.py", line 490, in __getattr__
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr:     raise AttributeError('Cannot use uninitialized Proxy.')
+2025-11-10 16:22:24 | WARNING | logger.py:390 | [TO_DO]  stderr: AttributeError: Cannot use uninitialized Proxy.
+2025-11-10 16:26:13 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:26:14 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:26:16 | DEBUG | main_menu.py:65 | [TO_DO]  Init MainMenu
+2025-11-10 16:26:20 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...
+2025-11-10 16:28:08 | WARNING | config_logger.py:43 | [TO_DO]  Application started with mode: debug
+2025-11-10 16:28:09 | DEBUG | splash.py:144 | [TO_DO]  DB path: D:\Python\TO_DO_Kivy\data\tasks.db
+2025-11-10 16:28:11 | DEBUG | main_menu.py:64 | [TO_DO]  Init MainMenu
+2025-11-10 16:28:31 | DEBUG | main_menu.py:103 | [TO_DO]  Open confirmation popup
+2025-11-10 16:28:33 | INFO | base.py:616 | [TO_DO]  Base: Leaving application in progress...

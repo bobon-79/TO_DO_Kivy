@@ -15,9 +15,10 @@
     "dpi_aware_windows": true
   },
   "data": {
+    "schema_version": 1,
     "backend": "sqlite",
     "db_path": "data/tasks.db",
-    "json_path": "data/tasks.json"
+    "json_path": "data/tasks"
   },
   "i18n": {
     "default": "ru",
